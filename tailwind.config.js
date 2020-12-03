@@ -1,0 +1,63 @@
+module.exports = {
+	theme: {
+		container: {
+			center: true,
+			padding: '1rem',
+		},
+		colors: {
+			transparent: 'transparent',
+			primary: '#223343',
+			white: '#F2F2F2',
+			gray: '#E9EBEC',
+			black: '#000000',
+			yellow: '#FFBA00',
+			blue: {
+				light: '#CAD0DC',
+				DEFAULT: '#4E5B73',
+				dark: '#3B4559',
+				pacific: '#00B2CD',
+			},
+		},
+		extend: {
+			fontFamily: {
+				heading: [
+					'Poppins',
+					'ui-sans-serif',
+					'system-ui',
+					'-apple-system',
+					'BlinkMacSystemFont',
+					'"Segoe UI"',
+					'Roboto',
+					'"Helvetica Neue"',
+					'Arial',
+					'"Noto Sans"',
+					'sans-serif',
+					'"Apple Color Emoji"',
+					'"Segoe UI Emoji"',
+					'"Segoe UI Symbol"',
+					'"Noto Color Emoji"',
+				],
+				body: [
+					'Montserrat',
+					'ui-sans-serif',
+					'system-ui',
+					'-apple-system',
+					'BlinkMacSystemFont',
+					'"Segoe UI"',
+					'Roboto',
+					'"Helvetica Neue"',
+					'Arial',
+					'"Noto Sans"',
+					'sans-serif',
+					'"Apple Color Emoji"',
+					'"Segoe UI Emoji"',
+					'"Segoe UI Symbol"',
+					'"Noto Color Emoji"',
+				],
+			},
+			backgroundImage: (theme) => ({
+				'hero-home': "url('../images/heros/home-hero.jpg')",
+			}),
+		},
+	},
+};

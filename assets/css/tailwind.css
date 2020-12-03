@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base */
+@layer base {
+	*,
+	*::before,
+	*::after {
+		@apply box-border;
+	}
+
+	body {
+		@apply text-primary bg-white font-body;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-heading;
+	}
+
+	h1 {
+		@apply text-4xl font-black mb-12 text-center;
+	}
+	h2 {
+		@apply text-3xl font-bold mb-12 text-center;
+	}
+	h3 {
+		@apply text-2xl font-light;
+	}
+
+	p {
+		@apply mb-4;
+	}
+
+	section {
+		@apply py-12;
+	}
+
+	section:nth-of-type(even) {
+		@apply bg-gray;
+	}
+
+	@screen md {
+		section {
+			@apply py-24;
+		}
+	}
+}
+
+/* Components */
+@layer components {
+	.hero {
+		@apply bg-no-repeat bg-center bg-cover;
+	}
+
+	.card {
+		@apply py-6 px-8 mb-8 text-center bg-white shadow-md;
+	}
+
+	.card-icon {
+		@apply w-20 h-20 mx-auto rounded-full bg-blue-pacific text-4xl text-white flex items-center justify-center;
+	}
+
+	.card-header {
+		@apply my-5;
+	}
+
+	.btn-primary {
+		@apply w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white transition bg-yellow hover:bg-blue md:w-max md:py-4 md:text-lg md:px-10;
+	}
+}
