@@ -649,41 +649,6 @@ section:nth-of-type(even) {
   background-size: cover;
 }
 
-.card {
-  --tw-bg-opacity: 1;
-  background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
-  margin-bottom: 2rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  text-align: center;
-}
-
-.card-icon {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 178, 205, var(--tw-bg-opacity));
-  border-radius: 9999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 5rem;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  --tw-text-opacity: 1;
-  color: rgba(242, 242, 242, var(--tw-text-opacity));
-  width: 5rem;
-}
-
-.card-header {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .btn-primary {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 186, 0, var(--tw-bg-opacity));
@@ -728,6 +693,41 @@ section:nth-of-type(even) {
     width: max-content;
   }
 }
+
+.card {
+  --tw-bg-opacity: 1;
+  background-color: rgba(242, 242, 242, var(--tw-bg-opacity));
+  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  text-align: center;
+}
+
+.card .card-icon {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 178, 205, var(--tw-bg-opacity));
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    --tw-text-opacity: 1;
+    color: rgba(242, 242, 242, var(--tw-text-opacity));
+    width: 5rem;
+  }
+
+.card .card-header {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -18329,9 +18329,7 @@ section:nth-of-type(even) {
           animation: bounce 1s infinite;
 }
 
-/* Base */
-
-/* Components */
+/* @import './custom-utilities/custom-utilities.css'; */
 
 @media (min-width: 640px) {
   .sm\:container {
