@@ -15,121 +15,151 @@
 		<link href="./assets/css/main.css" rel="stylesheet" />
 	</head>
 	<body>
-		<section class="relative text-white hero bg-hero-home">
-			<div class="absolute inset-0 bg-black bg-opacity-50"></div>
-			<div class="container relative z-10">
-				<h1>Hello World</h1>
-
-				<p
-					class="font-medium text-lg mx-auto text-center mb-0 lg:w-1/2"
-				>
-					We are New Designers, the first student-run design agency in
-					The Hague. Take the opportunity to be responsible for
-					running your own online agency. Determine role within the
-					agency and work together in a team of international CMD
-					students. Please send us an email with your portfolio if you
-					want to apply as a new designer.
-				</p>
+		<!-- Header -->
+		<header class="bg-primary fixed w-full z-50 text-white top-0">
+			<div class="container max-h-full">
+				<nav>
+					<a
+						href="./index.html"
+						class="h-14 inline-block py-3 font-bold"
+					>
+						<img
+							src="./assets//images/logo/New-Designers-Logo.svg"
+							alt="Logo of New Designers, Student Design Agency"
+							class="max-h-full inline"
+						/>
+						Student Design Agency</a
+					>
+				</nav>
 			</div>
-		</section>
+		</header>
 
-		<section>
-			<div class="container">
-				<h2>What we do?</h2>
+		<!-- Main -->
+		<main class="mt-14">
+			<!-- Hero -->
+			<section id="hero" class="relative text-white hero bg-hero-home">
+				<div class="absolute inset-0 bg-black bg-opacity-50"></div>
+				<div class="container relative z-10">
+					<h1>Hello World</h1>
 
-				<dl class="lg:flex lg:space-x-10">
-					<div class="card flex-1">
-						<div class="card-icon">
-							<i class="fas fa-search"></i>
+					<p
+						class="font-medium text-lg mx-auto text-center mb-0 xl:w-3/4 2xl:w-1/2"
+					>
+						We are New Designers, the first student-run design
+						agency in The Hague. Take the opportunity to be
+						responsible for running your own online agency.
+						Determine role within the agency and work together in a
+						team of international CMD students. Please send us an
+						email with your portfolio if you want to apply as a new
+						designer.
+					</p>
+				</div>
+			</section>
+
+			<!-- What we do -->
+			<section id="what-we-do">
+				<div class="container">
+					<h2>What we do?</h2>
+
+					<dl class="lg:flex lg:space-x-10">
+						<div class="card flex-1">
+							<div class="card-icon">
+								<i class="fas fa-search"></i>
+							</div>
+
+							<h3 class="card-header">
+								<dt>Research</dt>
+							</h3>
+
+							<div class="card-body">
+								<dd>
+									Our members are UX researchers by heart.
+									They dive into design questions and place
+									themselves in your users shoes. We promise
+									that as a client you'll get a fresh angle.
+								</dd>
+							</div>
 						</div>
 
-						<h3 class="card-header">
-							<dt>Research</dt>
-						</h3>
+						<div class="card flex-1">
+							<div class="card-icon">
+								<i class="fas fa-paint-brush"></i>
+							</div>
 
-						<div class="card-body">
-							<dd>
-								Our members are UX researchers by heart. They
-								dive into design questions and place themselves
-								in your users shoes. We promise that as a client
-								you'll get a fresh angle.
-							</dd>
-						</div>
-					</div>
+							<h3 class="card-header">
+								<dt>UX/UI Design</dt>
+							</h3>
 
-					<div class="card flex-1">
-						<div class="card-icon">
-							<i class="fas fa-paint-brush"></i>
+							<div class="card-body">
+								<dd>
+									From wireframes to high-fidelity prototypes,
+									we design digital interfaces for everyone.
+								</dd>
+							</div>
 						</div>
 
-						<h3 class="card-header">
-							<dt>UX/UI Design</dt>
-						</h3>
+						<div class="card flex-1">
+							<div class="card-icon">
+								<i class="fas fa-code"></i>
+							</div>
 
-						<div class="card-body">
-							<dd>
-								From wireframes to high-fidelity prototypes, we
-								design digital interfaces for everyone.
-							</dd>
+							<h3 class="card-header">
+								<dt>Web Development</dt>
+							</h3>
+
+							<div class="card-body">
+								<dd>
+									We specialize in translating designs
+									pixel-perfectly into modern JamStack
+									websites.
+								</dd>
+							</div>
 						</div>
-					</div>
+					</dl>
+				</div>
+			</section>
 
-					<div class="card flex-1">
-						<div class="card-icon">
-							<i class="fas fa-code"></i>
-						</div>
+			<!-- Clients -->
+			<section id="clients">
+				<div class="container">
+					<h2>Clients</h2>
+					<p class="text-center mx-auto xl:w-3/4 2xl:w-1/2">
+						Customers come to us with design issues that we
+						translate into suitable solutions, such as complete
+						style guides, websites and apps. New Designers members
+						mainly work for external clients from the business
+						world, but also do design work for THUAS lectorates and
+						other educational initiatives. Students work in
+						multidisciplinary teams when realising projects. Our
+						goal is to have every design built and put live, so that
+						the end product will be used IRL. Do you want to
+						collaborate or have a design question waiting to be
+						answered?
+					</p>
 
-						<h3 class="card-header">
-							<dt>Web Development</dt>
-						</h3>
+					<a href="#" class="btn-primary">
+						Please submit your project here
+					</a>
+				</div>
+			</section>
 
-						<div class="card-body">
-							<dd>
-								We specialize in translating designs
-								pixel-perfectly into modern JamStack websites.
-							</dd>
-						</div>
-					</div>
-				</dl>
-			</div>
-		</section>
+			<!-- Incubator -->
+			<section id="incubator">
+				<div class="container">
+					<h2>Incubator</h2>
 
-		<section>
-			<div class="container">
-				<h2>Clients</h2>
-				<p>
-					Customers come to us with design issues that we translate
-					into suitable solutions, such as complete style guides,
-					websites and apps. New Designers members mainly work for
-					external clients from the business world, but also do design
-					work for THUAS lectorates and other educational initiatives.
-					Students work in multidisciplinary teams when realising
-					projects. Our goal is to have every design built and put
-					live, so that the end product will be used IRL. Do you want
-					to collaborate or have a design question waiting to be
-					answered?
-				</p>
-
-				<a href="#" class="btn-primary">
-					Please submit your project here
-				</a>
-			</div>
-		</section>
-
-		<section>
-			<div class="container">
-				<h2>Incubator</h2>
-
-				<p>
-					In addition to working for clients, members also have the
-					option to work on own ideas within the incubator. For
-					example, if you have an idea for your own product, we will
-					help you with the business model, marketing and from
-					introduction to external partners to possible investment
-					rounds. Have a great idea? Please send us an email if you
-					want to apply for our incubator.
-				</p>
-			</div>
-		</section>
+					<p class="text-center mx-auto mb-0 xl:w-3/4 2xl:w-1/2">
+						In addition to working for clients, members also have
+						the option to work on own ideas within the incubator.
+						For example, if you have an idea for your own product,
+						we will help you with the business model, marketing and
+						from introduction to external partners to possible
+						investment rounds. Have a great idea? Please send us an
+						email if you want to apply for our incubator.
+					</p>
+				</div>
+			</section>
+		</main>
+		<!-- <script src="./assets//js//main.js"></script> -->
 	</body>
 </html>

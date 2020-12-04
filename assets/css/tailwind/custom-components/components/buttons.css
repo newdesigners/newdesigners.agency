@@ -1,5 +1,5 @@
 @layer components {
 	.btn-primary {
-		@apply w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white transition bg-yellow hover:bg-blue md:w-max md:py-4 md:text-lg md:px-10;
+		@apply w-full mx-auto flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white transition bg-yellow hover:bg-blue md:w-max md:py-4 md:text-lg md:px-10;
 	}
 }
