@@ -39,7 +39,7 @@ module.exports = {
 					'"Noto Color Emoji"',
 				],
 				body: [
-					'Montserrat',
+					'Roboto',
 					'ui-sans-serif',
 					'system-ui',
 					'-apple-system',
