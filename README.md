@@ -11,5 +11,5 @@ $ npm i -D tailwindcss autoprefixer postcss postcss-nested postcss-import
 ## Build
 
 ```
-$ npx postcss ./assets/css/tailwind/tailwind.css -o ./assets/css/main.css
+$ npx postcss ./assets/css/tailwind/tailwind.css -o ./assets/css/main.css --watch
 ```
