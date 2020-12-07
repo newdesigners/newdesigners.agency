@@ -1,0 +1,5 @@
+@layer components {
+  .btn {
+    @apply bg-secondary py-0.5 px-1.5 text-primary transition-colors inline-flex items-center hover:bg-primary hover:text-white;
+  }
+}

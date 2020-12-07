@@ -1,11 +1,11 @@
 @layer base {
-  *,
+  /* *,
   *::before,
   *::after {
     @apply box-border;
-  }
+  } */
 
-  html {
+  body {
     @apply font-body text-primary;
   }
 
@@ -28,7 +28,7 @@
 
   h3,
   h4 {
-    @apply text-blue-pacific uppercase;
+    @apply text-blue-pacific uppercase mb-1;
   }
 
   a:not(.nav-link):not(.btn) {

@@ -27,6 +27,16 @@
     <section>
       <div class="container">
         <a href="#">Link</a>
+        <a href="#" class="btn">Button</a>
+        <a href="#" class="btn"
+          >Button with icon<i class="fas fa-arrow-right ml-0.25 mt-0.125"></i
+        ></a>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+          illum molestias quaerat, corrupti ipsa dolorum facere earum veritatis
+          commodi sint voluptatibus voluptates officia dignissimos alias nam
+          fuga cum sequi architecto!
+        </p>
       </div>
     </section>
   </main>
