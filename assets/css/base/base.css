@@ -1,0 +1,51 @@
+@layer base {
+  *,
+  *::before,
+  *::after {
+    @apply box-border;
+  }
+
+  html {
+    @apply font-body text-primary;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading font-bold;
+  }
+
+  h1 {
+    @apply text-4xl mb-2;
+  }
+
+  h2 {
+    @apply text-2xl mb-3 text-center;
+  }
+
+  h3,
+  h4 {
+    @apply text-blue-pacific uppercase;
+  }
+
+  a:not(.nav-link):not(.btn) {
+    @apply text-blue-pacific underline transition-colors hover:text-primary;
+  }
+
+  section {
+    @apply py-3 bg-white;
+  }
+
+  section:nth-of-type(odd) {
+    @apply bg-gray;
+  }
+
+  @screen md {
+    section {
+      @apply py-6;
+    }
+  }
+}
