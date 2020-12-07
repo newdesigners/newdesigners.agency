@@ -1,5 +1,5 @@
 <template>
-  <div class="services">
+  <div class="services text-center">
     <Service
       icon="search"
       heading="Research"
