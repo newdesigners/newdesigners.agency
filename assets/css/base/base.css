@@ -28,7 +28,7 @@
 
   h3,
   h4 {
-    @apply text-blue-pacific uppercase mb-1;
+    @apply text-blue-pacific uppercase mb-0.75;
   }
 
   a:not(.nav-link):not(.btn) {
