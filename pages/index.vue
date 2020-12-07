@@ -9,6 +9,7 @@
     <section>
       <div class="container">
         <h2>Heading 2</h2>
+        <Services />
       </div>
     </section>
 
