@@ -1,8 +1,8 @@
 <template>
   <main>
-    <section>
+    <section id="hero">
       <div class="container">
-        <h1>Heading 1</h1>
+        <h1 class="mb-2">Heading 1</h1>
       </div>
     </section>
 

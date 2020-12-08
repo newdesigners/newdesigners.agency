@@ -19,7 +19,7 @@
   }
 
   h1 {
-    @apply text-4xl mb-2;
+    @apply text-4xl;
   }
 
   h2 {
