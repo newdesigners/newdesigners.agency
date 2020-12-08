@@ -1,5 +1,6 @@
 <template>
   <main>
+    <!-- Hero -->
     <section id="hero">
       <div class="container">
         <h1 class="mb-2">Hello World!</h1>
@@ -13,6 +14,7 @@
       </div>
     </section>
 
+    <!-- What we do -->
     <section id="what-we-do">
       <div class="container">
         <h2>What we do?</h2>
@@ -20,30 +22,35 @@
       </div>
     </section>
 
-    <section>
-      <div class="container">
-        <h3>Heading 3</h3>
+    <!-- Client -->
+    <section id="clients">
+      <div class="container text-center">
+        <h2>Clients</h2>
+        <p class="mb-2">
+          Customers come to us with design issues that we translate into
+          suitable solutions, such as complete style guides, websites and apps.
+          New Designers members mainly work for external clients from the
+          business world, but also do design work for THUAS lectorates and other
+          educational initiatives. Students work in multidisciplinary teams when
+          realising projects. Our goal is to have every design built and put
+          live, so that the end product will be used IRL. Do you want to
+          collaborate or have a design question waiting to be answered?
+        </p>
+        <a href="#" class="btn">Please submit your project here</a>
       </div>
     </section>
 
-    <section>
-      <div class="container">
-        <h4>Heading 4</h4>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <a href="#">Link</a>
-        <a href="#" class="btn">Button</a>
-        <a href="#" class="btn"
-          >Button with icon<i class="fas fa-arrow-right ml-0.25 mt-0.125"></i
-        ></a>
+    <!-- Incubator -->
+    <section id="incubator">
+      <div class="container text-center">
+        <h2>Incubator</h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
-          illum molestias quaerat, corrupti ipsa dolorum facere earum veritatis
-          commodi sint voluptatibus voluptates officia dignissimos alias nam
-          fuga cum sequi architecto!
+          In addition to working for clients, members also have the option to
+          work on own ideas within the incubator. For example, if you have an
+          idea for your own product, we will help you with the business model,
+          marketing and from introduction to external partners to possible
+          investment rounds. Have a great idea? Please send us an email if you
+          want to apply for our incubator.
         </p>
       </div>
     </section>
