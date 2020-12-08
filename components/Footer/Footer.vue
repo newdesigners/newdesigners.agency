@@ -28,11 +28,19 @@
           </li>
           <li class="phonenumber mb-0.5">
             <span class="fa-li"><i class="fas fa-phone"></i></span
-            ><a href="tel:+31-70-4458400">070 - 445 84 00</a>
+            ><a
+              href="tel:+31-70-4458400"
+              class="text-blue-pacific underline transition-colors hover:text-secondary"
+              >070 - 445 84 00</a
+            >
           </li>
           <li class="email">
             <span class="fa-li"><i class="fas fa-paper-plane"></i></span>
-            <a href="mailto:info@cmdagency.nl">info@cmdagency.nl</a>
+            <a
+              href="mailto:newdesigners@hhs.nl"
+              class="text-blue-pacific underline transition-colors hover:text-secondary"
+              >newdesigners@hhs.nl</a
+            >
           </li>
         </ul>
       </div>
