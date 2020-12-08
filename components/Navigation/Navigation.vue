@@ -14,7 +14,6 @@
           >Post a design project</NuxtLink
         >
       </li>
-      <button v-tooltip="'You have 5 new messages.'">huh</button>
     </ul>
   </nav>
 </template>
