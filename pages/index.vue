@@ -3,6 +3,7 @@
     <!-- Hero -->
     <section id="hero">
       <div class="container">
+        <Logo class="mx-auto mb-2" />
         <h1 class="mb-2">Hello World!</h1>
         <p>
           We are New Designers, the first student-run design agency in The
