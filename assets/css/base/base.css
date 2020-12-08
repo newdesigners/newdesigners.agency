@@ -37,10 +37,10 @@
 
   section {
     @apply py-3 bg-white;
-  }
 
-  section:nth-of-type(odd) {
-    @apply bg-gray;
+    &:nth-of-type(odd) {
+      @apply bg-gray;
+    }
   }
 
   @screen md {

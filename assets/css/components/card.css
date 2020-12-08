@@ -1,16 +1,16 @@
 @layer components {
   .card {
     @apply bg-gray p-1.25 mb-1.5 shadow-md;
-  }
 
-  .card-icon {
-    @apply bg-blue-pacific p-1 text-3xl text-white rounded-full inline-block mb-1;
-  }
+    .card-icon {
+      @apply bg-blue-pacific p-1 text-3xl text-white rounded-full inline-block mb-1;
+    }
 
-  .card-icon i {
-    width: 1.25em;
-    height: 1.25em;
+    .card-icon i {
+      width: 1.25em;
+      height: 1.25em;
 
-    @apply flex items-center justify-center;
+      @apply flex items-center justify-center;
+    }
   }
 }
