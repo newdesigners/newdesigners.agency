@@ -1,5 +1,0 @@
-@layer components {
-	.hero {
-		@apply bg-no-repeat bg-center bg-cover;
-	}
-}
