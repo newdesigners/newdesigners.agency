@@ -10,8 +10,12 @@
         >
       </li>
       <li class="nav-item">
-        <NuxtLink to="/post-a-design-project" class="nav-link btn"
-          >Post a design project</NuxtLink
+        <a
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RbTkDX42-gROkMzHS38XZmJUQ1pQME5GRFlQNUpNNkgzQzdWWVNJRkREQS4u"
+          target="_blank"
+          rel="noopener nofollow"
+          class="nav-link btn"
+          >Post a design project</a
         >
       </li>
     </ul>
