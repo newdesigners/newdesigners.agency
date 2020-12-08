@@ -6,9 +6,9 @@
       </div>
     </section>
 
-    <section>
+    <section id="what-we-do">
       <div class="container">
-        <h2>Heading 2</h2>
+        <h2>What we do?</h2>
         <Services />
       </div>
     </section>

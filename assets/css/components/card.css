@@ -1,6 +1,6 @@
 @layer components {
   .card {
-    @apply bg-gray p-1.25 mb-1.5 shadow-md;
+    @apply bg-gray py-2 px-1.25 mb-1.5 shadow-md;
 
     .card-icon {
       @apply bg-blue-pacific p-1 text-3xl text-white rounded-full inline-block mb-1;
