@@ -23,6 +23,11 @@ export default {
     ]
   },
 
+  router: {
+    linkActiveClass: "active-link",
+    linkExactActiveClass: "exact-active-link"
+  },
+
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [],
 

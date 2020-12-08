@@ -1,0 +1,26 @@
+@layer components {
+  .site-nav {
+    .nav-menu {
+    }
+
+    .nav-item {
+      @apply mb-0.5;
+    }
+
+    .nav-link {
+      @apply transition-colors hover:text-tertiary;
+
+      &.exact-active-link {
+        @apply text-tertiary;
+      }
+
+      &.btn {
+        @apply hover:bg-tertiary hover:text-white;
+      }
+
+      &.disabled {
+        @apply pointer-events-none opacity-25;
+      }
+    }
+  }
+}
