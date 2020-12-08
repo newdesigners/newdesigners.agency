@@ -1,8 +1,8 @@
 <template>
   <footer id="site-footer" class="bg-primary py-3 text-white">
-    <div class="container sm:flex sm:space-x-2">
+    <div class="container sm:flex flex-wrap sm:space-x-2">
       <!-- Footer logo -->
-      <div id="footer-logo" class="w-full lg:flex-1 mb-2 lg:mb-0">
+      <div id="footer-logo" class="w-full md:flex-1 mb-2 lg:mb-0">
         <Logo />
       </div>
 
