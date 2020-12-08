@@ -1,10 +1,4 @@
 @layer base {
-  /* *,
-  *::before,
-  *::after {
-    @apply box-border;
-  } */
-
   body {
     @apply font-body text-primary;
   }
@@ -53,5 +47,9 @@
     section {
       @apply py-6;
     }
+  }
+
+  ::selection {
+    @apply bg-primary text-white;
   }
 }

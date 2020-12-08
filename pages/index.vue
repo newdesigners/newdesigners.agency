@@ -36,7 +36,7 @@
           live, so that the end product will be used IRL. Do you want to
           collaborate or have a design question waiting to be answered?
         </p>
-        <a href="#" class="btn">Please submit your project here</a>
+        <a href="#" class="btn btn-md">Please submit your project here</a>
       </div>
     </section>
 

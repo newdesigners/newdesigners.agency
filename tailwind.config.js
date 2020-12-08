@@ -109,6 +109,9 @@ module.exports = {
           '"Noto Color Emoji"'
         ]
       },
+      fontSize: {
+        md: ["1.0625rem", { lineHeight: "1.5em" }]
+      },
       width: {
         inherit: "inherit"
       }
