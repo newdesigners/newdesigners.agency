@@ -24,3 +24,9 @@
     />
   </div>
 </template>
+
+<style lang="postcss" scoped>
+.services {
+  filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.1));
+}
+</style>
