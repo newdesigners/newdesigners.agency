@@ -2,7 +2,14 @@
   <main>
     <section id="hero">
       <div class="container">
-        <h1 class="mb-2">Heading 1</h1>
+        <h1 class="mb-2">Hello World!</h1>
+        <p>
+          We are New Designers, the first student-run design agency in The
+          Hague. Take the opportunity to be responsible for running your own
+          online agency. Determine role within the agency and work together in a
+          team of international CMD students. Please send us an email with your
+          portfolio if you want to apply as a new designer.
+        </p>
       </div>
     </section>
 

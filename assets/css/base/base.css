@@ -35,6 +35,10 @@
     @apply text-blue-pacific underline transition-colors hover:text-primary;
   }
 
+  p {
+    @apply max-w-3xl mx-auto;
+  }
+
   section {
     @apply py-3 bg-white;
 
