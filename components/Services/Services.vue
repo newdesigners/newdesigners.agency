@@ -2,7 +2,7 @@
   <div class="services text-center lg:flex lg:space-x-1">
     <Service
       class="flex-1 mb-1 lg:mb-0"
-      icon="search"
+      image="design"
       heading="Research"
       text="Our members are UX researchers by heart. They dive into design questions and place themselves in your users shoes. We promise that as a client you'll get a fresh angle."
     >
@@ -11,14 +11,14 @@
 
     <Service
       class="flex-1 mb-1 lg:mb-0"
-      icon="paint-brush"
+      image="research"
       heading="UX/UI Design"
       text="From wireframes to high-fidelity prototypes, we design digital interfaces for everyone."
     />
 
     <Service
       class="flex-1 mb-1 lg:mb-0"
-      icon="code"
+      image="development"
       heading="Web Development"
       text="We specialize in translating designs pixel-perfectly into modern JamStack websites."
     />

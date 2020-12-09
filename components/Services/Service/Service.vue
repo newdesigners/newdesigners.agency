@@ -1,16 +1,14 @@
 <template>
   <div class="card">
-    <div class="card-icon">
-      <i v-bind:class="`fas fa-${icon}`"></i>
-    </div>
-
-    <div class="card-header">
-      <h3>
-        {{ heading }}
-      </h3>
-    </div>
+    <img
+      :src="require(`~/assets/images/services/${image}.svg`)"
+      class="card-img"
+    />
 
     <div class="card-body">
+      <h3 class="card-title">
+        {{ heading }}
+      </h3>
       <p class="card-text">
         {{ text }}
       </p>
@@ -21,7 +19,7 @@
 <script>
 export default {
   props: {
-    icon: String,
+    image: String,
     heading: String,
     text: String
   }
