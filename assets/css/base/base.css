@@ -49,10 +49,10 @@
 
   img {
     @apply opacity-0;
+  }
 
-    &.isLoaded {
-      @apply opacity-100;
-    }
+  .isLoaded {
+    @apply opacity-100;
   }
 
   @screen md {
