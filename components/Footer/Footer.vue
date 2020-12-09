@@ -3,7 +3,12 @@
     <div class="container sm:flex flex-wrap sm:space-x-2">
       <!-- Footer logo -->
       <div id="footer-logo" class="w-full md:flex-1 mb-2 lg:mb-0">
-        <Logo />
+        <Logo logoWidth="max-w-logo-sm" class="mb-2" />
+        <p class="italic text-blue-light">
+          We love to research.<br />
+          We love to design.<br />
+          We love to develop.<br />
+        </p>
       </div>
 
       <!-- Footer menu -->

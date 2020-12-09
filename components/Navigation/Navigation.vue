@@ -6,7 +6,8 @@
           :to="item.link"
           class="nav-link"
           :class="{ disabled: item.disabled }"
-          >{{ item.text }}</NuxtLink
+          >{{ item.text }}
+          {{ item.disabled ? "(Comming Soon!)" : "" }}</NuxtLink
         >
       </li>
       <li class="nav-item">
