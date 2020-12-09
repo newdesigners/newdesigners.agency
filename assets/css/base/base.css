@@ -45,6 +45,10 @@
     &:nth-of-type(odd) {
       @apply bg-gray;
     }
+
+    &#what-we-do {
+      @apply bg-black;
+    }
   }
 
   .lazyLoad {
@@ -54,14 +58,6 @@
       @apply opacity-100;
     }
   }
-
-  /* .lazyLoad {
-    @apply opacity-0 transition-opacity;
-
-    &.isLoaded {
-      @apply opacity-100;
-    }
-  } */
 
   @screen md {
     section {
