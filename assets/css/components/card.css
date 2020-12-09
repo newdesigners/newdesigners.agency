@@ -4,6 +4,6 @@
   }
 
   .card-img {
-    @apply h-6 mx-auto mb-1.5 transform transition-transform;
+    @apply h-6 mx-auto mb-1.5 transform transition-all;
   }
 }

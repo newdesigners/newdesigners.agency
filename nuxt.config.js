@@ -8,8 +8,13 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "The first student-run design agency in The Hague. We design and build digital interfaces for everyone." },
-      { property: 'og:image', content: '/share.png' },
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "The first student-run design agency in The Hague. We design and build digital interfaces for everyone."
+      },
+      { property: "og:image", content: "/share.png" }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     link: [
@@ -42,7 +47,7 @@ export default {
   buildModules: ["@nuxtjs/tailwindcss"],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [],
+  modules: ["nuxt-lazy-load"],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

@@ -47,6 +47,22 @@
     }
   }
 
+  .lazyLoad {
+    @apply opacity-0;
+
+    &.isLoaded {
+      @apply opacity-100;
+    }
+  }
+
+  /* .lazyLoad {
+    @apply opacity-0 transition-opacity;
+
+    &.isLoaded {
+      @apply opacity-100;
+    }
+  } */
+
   @screen md {
     section {
       @apply py-6;

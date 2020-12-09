@@ -119,6 +119,19 @@ module.exports = {
         "logo-sm": "150px",
         logo: "250px",
         "logo-md": "350px"
+      },
+      animation: {
+        "fade-in": "fadeIn 1s linear"
+      },
+      keyframes: {
+        fadeIn: {
+          from: {
+            opacity: "0"
+          },
+          to: {
+            opacity: "1"
+          }
+        }
       }
     }
   },
