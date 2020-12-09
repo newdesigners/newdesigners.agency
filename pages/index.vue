@@ -5,7 +5,7 @@
       <div class="container">
         <Logo class="mx-auto mb-2" />
         <h1 class="mb-2">Hello World!</h1>
-        <p class="text-2xl">
+        <p class="md:text-2xl">
           We are New Designers, the first student-run design agency in The
           Hague. Take the opportunity to be responsible for running your own
           online agency. Determine role within the agency and work together in a
