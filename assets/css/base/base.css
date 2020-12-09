@@ -26,8 +26,12 @@
   }
 
   main {
-    a:not(.nav-link):not(.btn) {
+    a:not(.nav-link):not(.btn):not([class*="text"]) {
       @apply text-blue-pacific underline transition-colors hover:text-primary;
+    }
+
+    a[class*="text"] {
+      @apply underline transition-colors hover:text-primary;
     }
 
     p {

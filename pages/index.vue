@@ -10,8 +10,10 @@
           Hague. Take the opportunity to be responsible for running your own
           online agency. Determine role within the agency and work together in a
           team of international CMD students. Please
-          <a href="mailto:newdesigners@hhs.nl">send us an email</a> with your
-          portfolio if you want to apply as a new designer.
+          <a href="mailto:newdesigners@hhs.nl" class="text-blue"
+            >send us an email</a
+          >
+          with your portfolio if you want to apply as a new designer.
         </p>
       </div>
     </section>
