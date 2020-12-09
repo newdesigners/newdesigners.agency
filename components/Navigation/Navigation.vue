@@ -7,7 +7,9 @@
           class="nav-link"
           :class="{ disabled: item.disabled }"
           >{{ item.text }}
-          {{ item.disabled ? "(Comming Soon!)" : "" }}</NuxtLink
+          <span v-if="item.disabled" class="text-xs"
+            >(Comming Soon!)</span
+          ></NuxtLink
         >
       </li>
       <li class="nav-item">
