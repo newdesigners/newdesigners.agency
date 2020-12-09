@@ -1,10 +1,10 @@
-<svg width="94" height="147" viewBox="0 0 94 147" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="94" height="147">
-<rect width="93.8675" height="147" fill="#C4C4C4"/>
+<svg width="168" height="129" viewBox="0 0 168 129" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="168" height="129">
+<rect x="0.81604" y="90.8907" width="93.8675" height="147" transform="rotate(-75.0547 0.81604 90.8907)" fill="#C4C4C4"/>
 </mask>
 <g mask="url(#mask0)">
-<rect x="106.265" y="88.6292" width="98.8788" height="64.6008" transform="rotate(141.214 106.265 88.6292)" fill="url(#pattern0)"/>
-<rect x="-12.3976" y="58.8299" width="98.8788" height="63.2824" transform="rotate(-38.7862 -12.3976 58.8299)" fill="url(#pattern1)"/>
+<rect x="113.853" y="11.0776" width="98.8788" height="64.6008" transform="rotate(66.1591 113.853 11.0776)" fill="url(#pattern0)"/>
+<rect x="54.4586" y="118.041" width="98.8788" height="63.2824" transform="rotate(-113.841 54.4586 118.041)" fill="url(#pattern1)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
