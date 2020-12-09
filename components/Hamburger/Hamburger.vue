@@ -8,7 +8,6 @@
       :size="size"
       :color="color"
       :active-color="activeColor"
-      @click="modalToggle"
     />
   </div>
 </template>
@@ -22,11 +21,6 @@ export default {
       color: "#f2f2f2",
       activeColor: "#f2f2f2"
     };
-  },
-  methods: {
-    modalToggle() {
-      this.$emit("toggle");
-    }
   }
 };
 </script>

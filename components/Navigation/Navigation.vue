@@ -1,6 +1,6 @@
 <template>
   <nav class="site-nav">
-    <ul class="nav-menu">
+    <ul class="nav-menu" :class="ulClasses">
       <li v-for="item in items" :key="item.text" class="nav-item">
         <NuxtLink
           :to="item.link"
@@ -24,6 +24,9 @@
 
 <script>
 export default {
+  props: {
+    ulClasses: String
+  },
   data() {
     return {
       items: [
