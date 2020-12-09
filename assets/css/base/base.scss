@@ -45,15 +45,7 @@
     @apply py-3 bg-white;
 
     &:nth-of-type(odd) {
-      @apply bg-black;
-    }
-  }
-
-  .lazyLoad {
-    @apply opacity-0;
-
-    &.isLoaded {
-      @apply opacity-100;
+      @apply bg-gray;
     }
   }
 
@@ -65,5 +57,13 @@
 
   ::selection {
     @apply bg-primary text-white;
+  }
+}
+
+.lazyLoad {
+  @apply opacity-0;
+
+  &.isLoaded {
+    @apply opacity-100;
   }
 }
