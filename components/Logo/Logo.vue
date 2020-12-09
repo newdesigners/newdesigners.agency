@@ -1,5 +1,5 @@
 <template>
-  <div class="site-logo max-w-xs">
+  <div class="site-logo max-w-logo">
     <svg viewBox="0 0 259 218" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         d="M12.5809 12.8471L243.493 2.43921L226.192 217.301L7.30031 203L12.5809 12.8471Z"
