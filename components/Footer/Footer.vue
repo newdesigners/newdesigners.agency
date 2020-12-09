@@ -37,19 +37,30 @@
               href="https://instagram.com/newdesigners.agency"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
               target="_blank"
-              >Follow us on Instagram</a
+              >Instagram</a
             >
           </li>
 
-          <li class="instagram mb-0.5">
+          <li class="linkedin mb-0.5">
             <span class="fa-li"><i class="fab fa-linkedin"></i></span
             ><a
               href="https://linkedin.com/companies/newdesigners"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
               target="_blank"
-              >Follow us on LinkedIn</a
+              >LinkedIn</a
             >
           </li>
+
+          <li class="github mb-0.5">
+            <span class="fa-li"><i class="fab fa-github"></i></span
+            ><a
+              href="https://github.com/newdesigners/"
+              class="text-blue-pacific underline transition-colors hover:text-secondary"
+              target="_blank"
+              >Github</a
+            >
+          </li>
+
           <li class="email">
             <span class="fa-li"><i class="fas fa-paper-plane"></i></span>
             <a
