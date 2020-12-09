@@ -41,7 +41,7 @@
           href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RbTkDX42-gROkMzHS38XZmJUQ1pQME5GRFlQNUpNNkgzQzdWWVNJRkREQS4u"
           target="_blank"
           rel="noopener nofollow"
-          class="btn btn-md"
+          class="btn"
           >Please submit your project here</a
         >
       </div>
