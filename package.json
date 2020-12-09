@@ -13,6 +13,9 @@
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/tailwindcss": "^3.3.3",
     "autoprefixer": "^9.8.6",
     "nuxt-lazy-load": "^1.2.4",

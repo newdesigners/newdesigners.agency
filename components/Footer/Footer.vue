@@ -22,7 +22,7 @@
         <h3>Contact information</h3>
         <ul class="fa-ul">
           <li class="location mb-0.5">
-            <span class="fa-li"> <i class="fas fa-map-marker-alt"></i> </span>
+            <span class="fa-li"><Fa icon="map-marker-alt"/></span>
             <p>
               Location The Hague, headquarters
               <br />
@@ -32,7 +32,7 @@
             </p>
           </li>
           <li class="instagram mb-0.5">
-            <span class="fa-li"><i class="fab fa-instagram"></i></span
+            <span class="fa-li"><Fa :icon="['fab', 'instagram']"/></span
             ><a
               href="https://instagram.com/newdesigners.agency"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
@@ -42,7 +42,7 @@
           </li>
 
           <li class="linkedin mb-0.5">
-            <span class="fa-li"><i class="fab fa-linkedin"></i></span
+            <span class="fa-li"><Fa :icon="['fab', 'linkedin']"/></span
             ><a
               href="https://linkedin.com/companies/newdesigners"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
@@ -52,7 +52,7 @@
           </li>
 
           <li class="github mb-0.5">
-            <span class="fa-li"><i class="fab fa-github"></i></span
+            <span class="fa-li"><Fa :icon="['fab', 'github']"/></span
             ><a
               href="https://github.com/newdesigners/"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
@@ -62,7 +62,7 @@
           </li>
 
           <li class="email">
-            <span class="fa-li"><i class="fas fa-paper-plane"></i></span>
+            <span class="fa-li"><Fa icon="paper-plane"/></span>
             <a
               href="mailto:newdesigners@hhs.nl"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
