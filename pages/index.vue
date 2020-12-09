@@ -9,7 +9,8 @@
           We are New Designers, the first student-run design agency in The
           Hague. Take the opportunity to be responsible for running your own
           online agency. Determine role within the agency and work together in a
-          team of international CMD students. Please send us an email with your
+          team of international CMD students. Please
+          <a href="mailto:newdesigners@hhs.nl">send us an email</a> with your
           portfolio if you want to apply as a new designer.
         </p>
       </div>
@@ -56,8 +57,9 @@
           work on own ideas within the incubator. For example, if you have an
           idea for your own product, we will help you with the business model,
           marketing and from introduction to external partners to possible
-          investment rounds. Have a great idea? Please send us an email if you
-          want to apply for our incubator.
+          investment rounds. Have a great idea? Please
+          <a href="mailto:newdesigners@hhs.nl">send us an email</a> if you want
+          to apply for our incubator.
         </p>
       </div>
     </section>
