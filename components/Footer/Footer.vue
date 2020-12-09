@@ -31,12 +31,23 @@
               2521 EN The Hague
             </p>
           </li>
-          <li class="phonenumber mb-0.5">
-            <span class="fa-li"><i class="fas fa-phone"></i></span
+          <li class="instagram mb-0.5">
+            <span class="fa-li"><i class="fab fa-instagram"></i></span
             ><a
-              href="tel:+31-70-4458400"
+              href="https://instagram.com/newdesigners.agency"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
-              >070 - 445 84 00</a
+              target="_blank"
+              >Follow us on Instagram</a
+            >
+          </li>
+
+          <li class="instagram mb-0.5">
+            <span class="fa-li"><i class="fab fa-linkedin"></i></span
+            ><a
+              href="https://linkedin.com/companies/newdesigners"
+              class="text-blue-pacific underline transition-colors hover:text-secondary"
+              target="_blank"
+              >Follow us on LinkedIn</a
             >
           </li>
           <li class="email">
