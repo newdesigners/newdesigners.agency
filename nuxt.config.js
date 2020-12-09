@@ -36,11 +36,12 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: ["@nuxtjs/tailwindcss", "@nuxtjs/fontawesome"],
 
+  // Check documentaion on (https://www.npmjs.com/package/@nuxtjs/fontawesome)
   fontawesome: {
     component: "Fa",
     icons: {
-      solid: true,
-      brands: true
+      solid: ["faMapMarkerAlt", "faPaperPlane"],
+      brands: ["faInstagram", "faLinkedin", "faGithub"]
     }
   },
 
