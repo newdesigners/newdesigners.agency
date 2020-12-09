@@ -45,13 +45,9 @@
     &:nth-of-type(odd) {
       @apply bg-gray;
     }
-
-    &#what-we-do {
-      @apply bg-black;
-    }
   }
 
-  .lazyLoad {
+  img {
     @apply opacity-0;
 
     &.isLoaded {
