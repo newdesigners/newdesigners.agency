@@ -1,3 +1,5 @@
+/* Base layer can NOT contain classes and id's! place them under the base layer  */
+
 @layer base {
   body {
     @apply font-body text-primary;
@@ -47,10 +49,6 @@
     }
   }
 
-  img {
-    @apply opacity-0;
-  }
-
   @screen md {
     section {
       @apply py-6;
@@ -61,7 +59,10 @@
     @apply bg-primary text-white;
   }
 }
+.lazyLoad {
+  @apply opacity-0;
 
-.isLoaded {
-  @apply opacity-100;
+  &.isLoaded {
+    @apply opacity-100;
+  }
 }
