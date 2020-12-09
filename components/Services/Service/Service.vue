@@ -2,7 +2,7 @@
   <div class="card">
     <img
       :src="require(`~/assets/images/services/${image}.svg`)"
-      class="card-img"
+      class="card-img group-hover:rotate-6"
     />
 
     <div class="card-body">

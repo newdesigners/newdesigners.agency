@@ -123,7 +123,9 @@ module.exports = {
     }
   },
   variants: {
-    extend: {}
+    extend: {
+      rotate: ["group-hover"]
+    }
   },
   plugins: []
 };
