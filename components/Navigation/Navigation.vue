@@ -8,7 +8,7 @@
           :class="{ disabled: item.disabled }"
           >{{ item.text }}
           <span v-if="item.disabled" class="text-xs"
-            >(Comming Soon!)</span
+            >(coming soon!)</span
           ></NuxtLink
         >
       </li>
