@@ -5,6 +5,10 @@
 
     .nav-item {
       @apply mb-0.5;
+
+      &:last-of-type {
+        @apply mb-0;
+      }
     }
 
     .nav-link {
