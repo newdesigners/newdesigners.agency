@@ -3,8 +3,8 @@
     <Service
       class="flex-1 mb-1 lg:mb-0"
       image="design"
-      heading="Research"
-      text="Our members are UX researchers by heart. They dive into design questions and place themselves in your users shoes. We promise that as a client you'll get a fresh angle."
+      heading="Visual design"
+      text="From company styles, wireframes to high-fidelity prototypes, we design digital interfaces for everyone."
     >
       <h1>Hi there</h1>
     </Service>
@@ -12,8 +12,8 @@
     <Service
       class="flex-1 mb-1 lg:mb-0"
       image="research"
-      heading="UX/UI Design"
-      text="From wireframes to high-fidelity prototypes, we design digital interfaces for everyone."
+      heading="Research"
+      text="Our members are UX researchers by heart. They dive into design questions and place themselves in your users shoes. We promise that as a client you'll get a fresh angle."
     />
 
     <Service
