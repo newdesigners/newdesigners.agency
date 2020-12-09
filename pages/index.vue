@@ -8,7 +8,7 @@
         <p class="md:text-2xl">
           We are New Designers, the first student-run design agency in The
           Hague. Take the opportunity to be responsible for running your own
-          online agency. Determine role within the agency and work together in a
+          online agency. Determine your role within the agency and work together in a
           team of international CMD students. Please
           <a href="mailto:newdesigners@hhs.nl" class="text-blue"
             >send us an email</a
