@@ -114,6 +114,11 @@ module.exports = {
       },
       width: {
         inherit: "inherit"
+      },
+      maxWidth: {
+        "logo-sm": "150px",
+        logo: "250px",
+        "logo-md": "350px"
       }
     }
   },
