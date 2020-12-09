@@ -49,6 +49,14 @@
     }
   }
 
+  .lazyLoad {
+    @apply opacity-0;
+
+    &.isLoaded {
+      @apply opacity-100;
+    }
+  }
+
   @screen md {
     section {
       @apply py-6;
@@ -57,13 +65,5 @@
 
   ::selection {
     @apply bg-primary text-white;
-  }
-}
-
-.lazyLoad {
-  @apply opacity-0;
-
-  &.isLoaded {
-    @apply opacity-100;
   }
 }
