@@ -40,7 +40,7 @@ export default {
   fontawesome: {
     component: "Fa",
     icons: {
-      solid: ["faMapMarkerAlt", "faPaperPlane"],
+      solid: ["faMapMarkerAlt", "faPaperPlane", "faArrowLeft", "faFrown"],
       brands: ["faInstagram", "faLinkedin", "faGithub"]
     }
   },
