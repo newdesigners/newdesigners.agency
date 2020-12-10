@@ -37,6 +37,7 @@
               href="https://instagram.com/newdesigners.agency"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
               target="_blank"
+              rel="noopener nofollow"
               >Instagram</a
             >
           </li>
@@ -47,6 +48,7 @@
               href="https://linkedin.com/companies/newdesigners"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
               target="_blank"
+              rel="noopener nofollow"
               >LinkedIn</a
             >
           </li>
@@ -57,6 +59,7 @@
               href="https://github.com/newdesigners/"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
               target="_blank"
+              rel="noopener nofollow"
               >Github</a
             >
           </li>
