@@ -5,13 +5,6 @@
       <div class="container">
         <Logo class="mx-auto mb-2" logoWidth="max-w-logo-sm md:max-w-logo" />
         <h1 class="mb-2">Hello World!</h1>
-        <a
-          href="https://teams.microsoft.com/l/meetup-join/19%3ad62cb570c46744b7af060b6e20a86837%40thread.tacv2/1601541217989?context=%7b%22Tid%22%3a%22a2586b9b-f867-4b3c-9363-5b435c5dbc45%22%2c%22Oid%22%3a%227e0de4b4-fa36-4e04-90cc-c74b7f176662%22%7d"
-          target="_blank"
-          rel="noopener nofollow"
-          class="btn btn-primary mb-2 animate-bounce hover:bg-tertiary"
-          >Join the opening on Teams at 16:00!</a
-        >
         <p class="md:text-2xl">
           We are New Designers, the first student-run design agency in The
           Hague. Take the opportunity to be responsible for running your own
