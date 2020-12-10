@@ -5,5 +5,9 @@
     &.btn-sm {
       @apply py-0.5 px-1 text-base font-medium;
     }
+
+    &.btn-primary {
+      @apply bg-primary text-white;
+    }
   }
 }
