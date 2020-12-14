@@ -1,10 +1,10 @@
 @layer components {
   .card {
-    @apply bg-gray shadow-md transition-all group;
+    @apply bg-gray shadow-md transition-all group flex-auto;
   }
 
   .card-img {
-    @apply h-6 mx-auto mb-1.5 transform transition-all;
+    @apply h-6 inline-block mt-1.25 transform transition-all;
   }
 
   .card-body {
@@ -12,6 +12,6 @@
   }
 
   .card-footer {
-    @apply py-0.75 px-1.25;
+    @apply pb-1.25 px-1.25;
   }
 }
