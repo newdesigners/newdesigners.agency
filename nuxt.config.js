@@ -16,6 +16,14 @@ export default {
       },
       { property: "og:image", content: "/share.png" }
     ],
+    script: [
+      {
+        async: true,
+        defer: true,
+        "data-domain": "newdesigners.agency",
+        src: "https://plausible.io/js/plausible.js"
+      }
+    ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
