@@ -64,12 +64,22 @@
             >
           </li>
 
-          <li class="email">
+          <li class="email mb-0.5">
             <span class="fa-li"><Fa icon="paper-plane"/></span>
             <a
               href="mailto:newdesigners@hhs.nl"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
               >newdesigners@hhs.nl</a
+            >
+          </li>
+
+          <li class="netlify">
+            <span class="fa-li"><Fa icon="bolt"/></span>
+            <span>This site is powered by</span>
+            <a
+              href="mailto:newdesigners@hhs.nl"
+              class="text-blue-pacific underline transition-colors hover:text-secondary"
+              >Netlify</a
             >
           </li>
         </ul>
