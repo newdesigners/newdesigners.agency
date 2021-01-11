@@ -77,8 +77,10 @@
             <span class="fa-li"><Fa icon="bolt"/></span>
             <span>This site is powered by</span>
             <a
-              href="mailto:newdesigners@hhs.nl"
+              href="https://www.netlify.com/"
               class="text-blue-pacific underline transition-colors hover:text-secondary"
+              target="_blank"
+              rel="noopener nofollow"
               >Netlify</a
             >
           </li>
