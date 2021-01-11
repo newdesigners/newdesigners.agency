@@ -235,8 +235,8 @@
           </div>
 
           <!-- Contact info -->
-          <h2 class="text-left mb-1">Contact info</h2>
-          <span
+          <h2 class="text-left mb-0">Contact info</h2>
+          <span class="block mb-1"
             >Please leave your contact info here. We will contact you within
             five working days.
           </span>
