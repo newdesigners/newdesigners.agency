@@ -10,123 +10,125 @@
     <form name="post a design project" method="POST" netlify>
       <!-- Project info -->
       <section>
-        <div class="container">
-          <h2>What kind of project is it?</h2>
+        <div class="container max-w-3xl">
+          <h2 class="text-left mb-1">What kind of project is it?</h2>
 
           <!-- Categories -->
-          <div class="form-group">
+          <div id="categories" class="form-group">
             <span>Please check all categories that may apply.</span>
 
-            <!-- Internship -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                name="categories"
-                id="internship"
-              />
+            <div class="flex flex-col flex-wrap sm:flex-row">
+              <!-- Internship -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="categories"
+                  id="internship"
+                />
 
-              <label class="form-check-label" for="internship">
-                Internship
-              </label>
-            </div>
+                <label class="form-check-label" for="internship">
+                  Internship
+                </label>
+              </div>
 
-            <!-- Graduation project -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                name="categories"
-                id="graduation-project"
-              />
+              <!-- Graduation project -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="categories"
+                  id="graduation-project"
+                />
 
-              <label class="form-check-label" for="graduation-project">
-                Graduation project
-              </label>
-            </div>
+                <label class="form-check-label" for="graduation-project">
+                  Graduation project
+                </label>
+              </div>
 
-            <!-- Freelance -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                name="categories"
-                id="freelance"
-              />
+              <!-- Freelance -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="categories"
+                  id="freelance"
+                />
 
-              <label class="form-check-label" for="freelance">
-                Freelance
-              </label>
-            </div>
+                <label class="form-check-label" for="freelance">
+                  Freelance
+                </label>
+              </div>
 
-            <!-- Paid -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                name="categories"
-                id="paid"
-              />
+              <!-- Paid -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="categories"
+                  id="paid"
+                />
 
-              <label class="form-check-label" for="paid">
-                Paid
-              </label>
-            </div>
+                <label class="form-check-label" for="paid">
+                  Paid
+                </label>
+              </div>
 
-            <!-- Unpaid -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                name="categories"
-                id="unpaid"
-              />
+              <!-- Unpaid -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="categories"
+                  id="unpaid"
+                />
 
-              <label class="form-check-label" for="unpaid">
-                Unpaid
-              </label>
-            </div>
+                <label class="form-check-label" for="unpaid">
+                  Unpaid
+                </label>
+              </div>
 
-            <!-- Research -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                name="categories"
-                id="research"
-              />
+              <!-- Research -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="categories"
+                  id="research"
+                />
 
-              <label class="form-check-label" for="research">
-                Research
-              </label>
-            </div>
+                <label class="form-check-label" for="research">
+                  Research
+                </label>
+              </div>
 
-            <!-- Design -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                name="categories"
-                id="design"
-              />
+              <!-- Design -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="categories"
+                  id="design"
+                />
 
-              <label class="form-check-label" for="design">
-                Design
-              </label>
-            </div>
+                <label class="form-check-label" for="design">
+                  Design
+                </label>
+              </div>
 
-            <!-- Development -->
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                name="categories"
-                id="development"
-              />
+              <!-- Development -->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="categories"
+                  id="development"
+                />
 
-              <label class="form-check-label" for="development">
-                Development
-              </label>
+                <label class="form-check-label" for="development">
+                  Development
+                </label>
+              </div>
             </div>
           </div>
 
@@ -201,7 +203,6 @@
               required
             ></textarea>
           </div>
-
           <!-- Estimated duration -->
           <div class="form-group">
             <label for="estimated-duration"
@@ -223,7 +224,7 @@
           </div>
 
           <!-- Company website URL -->
-          <div class="form-group">
+          <div class="form-group mb-4">
             <label for="company-website-url">Company website URL *</label>
             <input
               type="url"
@@ -232,13 +233,9 @@
               required
             />
           </div>
-        </div>
-      </section>
 
-      <!-- Contact info -->
-      <section>
-        <div class="container">
-          <h2>Contact info</h2>
+          <!-- Contact info -->
+          <h2 class="text-left mb-1">Contact info</h2>
           <span
             >Please leave your contact info here. We will contact you within
             five working days.

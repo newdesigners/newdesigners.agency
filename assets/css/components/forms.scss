@@ -1,59 +1,31 @@
 @layer components {
-  form {
-    &.form-inline {
-      @apply flex flex-row flex-wrap items-center space-x-1;
-
-      > .form-group {
-        @apply flex-1 mb-0;
-      }
-    }
-  }
-
-  /* form Groups */
   .form-group {
-    @apply text-primary mb-1;
-
-    &.checkbox {
-      @apply flex items-center;
-    }
+    @apply mb-1;
 
     &:last-child {
       @apply mb-0;
     }
   }
 
-  /* Labels */
-  label {
-    &.sr-only {
-      @apply absolute w-px h-px p-0 overflow-hidden whitespace-nowrap border-0;
-      clip: rect(0, 0, 0, 0);
-      clip-path: inset(50%);
-    }
+  .form-control {
+    @apply block w-full py-0.375 px-0.75 text-base text-primary bg-white rounded;
   }
 
-  /* Input groups */
-  .input-group {
-    @apply relative transition-colors focus-within:text-primary;
-
-    & > .input-icon {
-      @apply absolute inset-y-0 left-0 pl-0.75 flex items-center pointer-events-none;
-    }
-
-    & > .input {
-      @apply pl-3;
-    }
+  .form-check {
+    @apply flex items-center;
   }
 
-  /* Inputs */
-  .input {
-    @apply w-full py-0.5 px-1 flex-1 bg-white text-primary placeholder-primary shadow-md rounded appearance-none transition-shadow focus:outline-none focus:ring-2 focus:ring-primary;
+  .form-check-input {
+    @apply mr-0.5;
   }
 
-  .check-input {
-    @apply appearance-none h-1 w-1 mr-1 bg-blue-light focus:outline-none focus:ring focus:border-blue-pacific;
+  label:not(.form-check-label) {
+    @apply inline-block mb-0.5;
+  }
 
-    &:checked {
-      @apply bg-blue-pacific;
+  #categories {
+    .form-check {
+      flex: 1 1 50%;
     }
   }
 }
