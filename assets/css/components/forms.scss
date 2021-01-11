@@ -1,0 +1,59 @@
+@layer components {
+  form {
+    &.form-inline {
+      @apply flex flex-row flex-wrap items-center space-x-1;
+
+      > .form-group {
+        @apply flex-1 mb-0;
+      }
+    }
+  }
+
+  /* form Groups */
+  .form-group {
+    @apply text-primary mb-1;
+
+    &.checkbox {
+      @apply flex items-center;
+    }
+
+    &:last-child {
+      @apply mb-0;
+    }
+  }
+
+  /* Labels */
+  label {
+    &.sr-only {
+      @apply absolute w-px h-px p-0 overflow-hidden whitespace-nowrap border-0;
+      clip: rect(0, 0, 0, 0);
+      clip-path: inset(50%);
+    }
+  }
+
+  /* Input groups */
+  .input-group {
+    @apply relative transition-colors focus-within:text-primary;
+
+    & > .input-icon {
+      @apply absolute inset-y-0 left-0 pl-0.75 flex items-center pointer-events-none;
+    }
+
+    & > .input {
+      @apply pl-3;
+    }
+  }
+
+  /* Inputs */
+  .input {
+    @apply w-full py-0.5 px-1 flex-1 bg-white text-primary placeholder-primary shadow-md rounded appearance-none transition-shadow focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+
+  .check-input {
+    @apply appearance-none h-1 w-1 mr-1 bg-blue-light focus:outline-none focus:ring focus:border-blue-pacific;
+
+    &:checked {
+      @apply bg-blue-pacific;
+    }
+  }
+}
