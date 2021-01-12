@@ -60,7 +60,7 @@ export default {
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ["nuxt-lazy-load"],
+  modules: ["@nuxt/content", "nuxt-lazy-load"],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
