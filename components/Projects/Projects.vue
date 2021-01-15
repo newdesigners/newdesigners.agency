@@ -2,21 +2,28 @@
   <p v-if="$fetchState.pending">Fetching projects...</p>
   <p v-else-if="$fetchState.error">An error occurred :(</p>
   <div v-else>
-    <span class="font-bold block mb-1"
-      ><span class="text-secondary">{{ projects.length }}</span> projects has
-      been found</span
-    >
-    <Project
-      class="mb-1 lg:mb-0"
-      v-for="(project, index) of projects"
-      :key="index"
-      :heading="project.title"
-      :text="project.description"
-      :footer1="project.height"
-      :footer2="project.continent"
-      :footer3="project.countries[0]"
-    />
-    <button @click="$fetch">Refresh</button>
+    <li class="project" v-for="project of projects" :key="project.slug">
+      <NuxtLink :to="`${project.dir}/${project.slug}`">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">{{ project.title }}</h3>
+            <h5 class="card-subtitle">
+              {{ project.client }} - {{ project.location }}
+            </h5>
+            <div class="card-text">{{ project.description }}</div>
+          </div>
+          <div class="card-footer flex">
+            <p>
+              <span class="publish-date">{{
+                formatDate(project.publishDate)
+              }}</span>
+              - <span class="duration">{{ project.duration }}</span> -
+              <span class="language">{{ project.language }}</span>
+            </p>
+          </div>
+        </div>
+      </NuxtLink>
+    </li>
   </div>
 </template>
 
@@ -27,12 +34,18 @@ export default {
       projects: []
     };
   },
+
   async fetch() {
-    this.projects = await fetch("https://api.nuxtjs.dev/mountains").then(res =>
-      res.json()
-    );
+    this.projects = await this.$content("projects")
+      .limit(5)
+      .fetch();
+  },
+
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "short", day: "numeric" };
+      return new Date(date).toLocaleDateString("nl", options);
+    }
   }
 };
 </script>
-
-<style></style>

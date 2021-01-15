@@ -8,7 +8,7 @@
     </section>
 
     <section>
-      <div class="container">
+      <div class="container max-w-3xl">
         <Projects />
       </div>
     </section>
