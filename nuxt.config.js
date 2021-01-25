@@ -36,7 +36,10 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [{ src: "~/plugins/vue-tasty-burgers", mode: "client" }],
+  plugins: [
+    { src: "~/plugins/vue-tasty-burgers", mode: "client" },
+    { src: "~/plugins/main" }
+  ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -60,7 +63,7 @@ export default {
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ["nuxt-lazy-load"],
+  modules: ["@nuxt/content", "nuxt-lazy-load"],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

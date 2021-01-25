@@ -1,0 +1,17 @@
+@layer components {
+  .badge {
+    @apply inline-block py-0.25 px-0.5 text-sm leading-4 whitespace-nowrap items-baseline rounded mr-0.25;
+
+    &:last-of-type {
+      @apply mr-0;
+    }
+
+    &.badge-primary {
+      @apply bg-primary text-white;
+    }
+
+    &.badge-secondairy {
+      @apply bg-secondary;
+    }
+  }
+}

@@ -22,13 +22,16 @@
     @apply text-3xl mb-3 text-center;
   }
 
-  h3,
-  h4 {
+  h3 {
     @apply text-blue-pacific uppercase mb-0.75;
   }
 
+  h4 {
+    @apply text-blue-pacific uppercase;
+  }
+
   main {
-    a:not(.nav-link):not(.btn):not([class*="text"]) {
+    a:not(.nav-link):not(.btn):not([class*="text"]):not(.clickable-card) {
       @apply text-blue-pacific underline transition-colors hover:text-primary;
     }
 
@@ -37,26 +40,28 @@
     }
 
     p {
-      @apply max-w-3xl mx-auto;
+      @apply max-w-3xl;
     }
-  }
 
-  section {
-    @apply py-3 bg-white;
+    section {
+      @apply py-3 bg-white;
 
-    &:nth-of-type(odd) {
-      @apply bg-gray;
+      &:nth-of-type(odd) {
+        @apply bg-gray;
+      }
+    }
+
+    ::selection {
+      @apply bg-primary text-white;
     }
   }
 
   @screen md {
-    section {
-      @apply py-6;
+    main {
+      section {
+        @apply py-6;
+      }
     }
-  }
-
-  ::selection {
-    @apply bg-primary text-white;
   }
 }
 

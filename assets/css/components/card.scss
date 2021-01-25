@@ -1,6 +1,6 @@
 @layer components {
   .card {
-    @apply bg-gray shadow-md transition-all group flex-auto;
+    @apply bg-gray shadow-md transition-all group flex-auto hover:shadow-none;
   }
 
   .card-img {
@@ -9,6 +9,14 @@
 
   .card-body {
     @apply p-1.25;
+  }
+
+  .card-title {
+    @apply mb-0;
+  }
+
+  .card-subtitle {
+    @apply mb-0.5;
   }
 
   .card-footer {

@@ -1,0 +1,31 @@
+@layer components {
+  .form-group {
+    @apply mb-1;
+
+    &:last-child {
+      @apply mb-0;
+    }
+  }
+
+  .form-control {
+    @apply block w-full py-0.375 px-0.75 text-base text-primary bg-white rounded;
+  }
+
+  .form-check {
+    @apply flex items-center;
+  }
+
+  .form-check-input {
+    @apply mr-0.5;
+  }
+
+  label:not(.form-check-label) {
+    @apply inline-block mb-0.5;
+  }
+
+  #categories {
+    .form-check {
+      flex: 1 1 50%;
+    }
+  }
+}
