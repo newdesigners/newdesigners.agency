@@ -40,13 +40,9 @@
           live, so that the end product will be used IRL. Do you want to
           collaborate or have a design question waiting to be answered?
         </p>
-        <a
-          href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RbTkDX42-gROkMzHS38XZmJUQ1pQME5GRFlQNUpNNkgzQzdWWVNJRkREQS4u"
-          target="_blank"
-          rel="noopener nofollow"
-          class="btn"
-          >Please submit your project here</a
-        >
+        <nuxt-link to="/post-a-design-project" class="btn">
+          Please submit your project here
+        </nuxt-link>
       </div>
     </section>
 
