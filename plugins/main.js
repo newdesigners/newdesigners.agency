@@ -1,10 +1,6 @@
 import Vue from "vue";
 Vue.mixin({
   methods: {
-    mySpecialMethod(value) {
-      console.log(value);
-    },
-
     capitalize(value) {
       if (!value) return "";
       value = value.toString();

@@ -80,7 +80,6 @@ export default {
   mounted() {
     this.capitalize();
     this.formatDate();
-    this.mySpecialMethod("duh");
   }
 };
 </script>
