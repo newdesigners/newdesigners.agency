@@ -80,6 +80,8 @@ export default {
   mounted() {
     this.capitalize();
     this.formatDate();
-  }
+  },
+
+  fetchDelay: 0
 };
 </script>

@@ -34,7 +34,7 @@ export default {
     return {
       items: [
         { link: "/", text: "Home" },
-        { link: "/projects", text: "Projects", disabled: true },
+        { link: "/projects", text: "Projects" },
         { link: "/studentwork", text: "Studentwork", disabled: true },
         { link: "/become-a-member", text: "Become a member", disabled: true },
         { link: "/contact", text: "Contact", disabled: true }

@@ -1,8 +1,12 @@
 /* Base layer can NOT contain classes and id's! place them under the base layer  */
 
 @layer base {
+  html > body > #__nuxt > #__layout > div {
+    @apply flex flex-col min-h-screen;
+  }
+
   body {
-    @apply font-body text-primary;
+    @apply font-body text-primary bg-white;
   }
 
   h1,
@@ -31,6 +35,8 @@
   }
 
   main {
+    @apply flex-1;
+
     a:not(.nav-link):not(.btn):not([class*="text"]):not(.clickable-card) {
       @apply text-blue-pacific underline transition-colors hover:text-primary;
     }
@@ -44,7 +50,7 @@
     }
 
     section {
-      @apply py-3 bg-white;
+      @apply py-3;
 
       &:nth-of-type(odd) {
         @apply bg-gray;
