@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: newdesigners/newdesigners.agency
   branch: master
 
 publish_mode: editorial_workflow
@@ -7,7 +8,7 @@ publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 
-# logo_url: https://help.waysagency.nl/images/logo/Ways-Agency-Logo.svg
+logo_url: https://help.waysagency.nl/images/logo/Ways-Agency-Logo.svg
 
 locale: "en"
 show_preview_links: true
@@ -20,7 +21,7 @@ collections:
     create: true
     slug: "{{slug}}"
     editor:
-      preview: false
+      preview: true
     fields:
       # Publish date
       - { label: "Publish date", name: "publish-date", widget: "datetime" }
@@ -50,7 +51,10 @@ collections:
               widget: "boolean",
               default: false,
             }
-          - { label: "Paid", name: "paid", widget: "boolean", default: false }
+          - { label: "Paid", 
+              name: "paid",
+              widget: "boolean",
+              default: false }
           - {
               label: "Unpaid",
               name: "unpaid",
@@ -106,18 +110,10 @@ collections:
       - { label: "Project title", name: "title", widget: "string" }
 
       # Project description
-      - {
-          label: "Project description",
-          name: "project-description",
-          widget: "markdown",
-        }
+      - { label: "Project description", name: "project-description", widget: "markdown" }
 
       # Estimated duration
-      - {
-          label: "Estimated duration",
-          name: "estimated-duration",
-          widget: "string",
-        }
+      - { label: "Estimated duration", name: "estimated-duration", widget: "string" }
 
       # Company name
       - { label: "Company name", name: "company-name", widget: "string" }
@@ -132,8 +128,17 @@ collections:
       - { label: "Contact email", name: "contact-email", widget: "string" }
 
       # Contact phone number
-      - {
-          label: "Contact phone number",
-          name: "contact-phone-number",
-          widget: "string",
-        }
+      - { label: "Contact phone number", name: "contact-phone-number", widget: "string" }
+  - label: 'Blog'
+    name: 'blog'
+    folder: 'content/blog'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
