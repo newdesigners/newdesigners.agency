@@ -116,9 +116,13 @@ module.exports = {
         inherit: "inherit"
       },
       maxWidth: {
+        "logo-xsm": "75px",
         "logo-sm": "150px",
-        logo: "250px",
-        "logo-md": "350px"
+        "logo": "250px",
+        "logo-md": "350px",
+      },
+      transitionProperty: {
+        'height': 'height, max-height',
       }
     }
   },

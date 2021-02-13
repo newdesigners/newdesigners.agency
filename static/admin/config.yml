@@ -7,7 +7,9 @@ publish_mode: editorial_workflow
 
 media_folder: static/img
 public_folder: /img
-
+site_url: https://newdesigners.agency/
+display_url: https://newdesigners.agency/
+logo_url: https://newdesigners.agency/logo.svg
 
 locale: "en"
 show_preview_links: true
@@ -20,7 +22,7 @@ collections:
     create: true
     slug: "{{slug}}"
     editor:
-      preview: true
+      preview: false
     fields:
       # Publish date
       - { label: "Publish date", name: "publish-date", widget: "datetime" }
@@ -128,16 +130,3 @@ collections:
 
       # Contact phone number
       - { label: "Contact phone number", name: "contact-phone-number", widget: "string" }
-  - label: 'Blog'
-    name: 'blog'
-    folder: 'content/blog'
-    format: 'frontmatter'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
