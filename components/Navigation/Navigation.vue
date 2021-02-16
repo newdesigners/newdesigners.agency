@@ -20,7 +20,7 @@
           target="_blank"
           rel="noopener nofollow"
           class="btn"
-          >Please submit your project here</a
+          >Submit a design project</a
         >
       </li>
     </ul>
