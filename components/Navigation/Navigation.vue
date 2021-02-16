@@ -19,9 +19,9 @@
           href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RbTkDX42-gROkMzHS38XZmJUQ1pQME5GRFlQNUpNNkgzQzdWWVNJRkREQS4u"
           target="_blank"
           rel="noopener nofollow"
-          class="btn"
-          >Submit a design project</a
-        >
+          class="nav-link btn btn-sm"
+          >Submit a design project
+        </a>
       </li>
     </ul>
   </nav>
