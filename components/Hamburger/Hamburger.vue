@@ -31,10 +31,10 @@ export default {
     }
   },
   mounted(active) {
-    document.addEventListener('scroll', () => {
-      console.log('ree');
-      this.$parent.$refs.header.classList.remove('open');
-    });
+    // document.addEventListener('scroll', () => {
+    //   console.log('ree');
+    //   this.$parent.$refs.header.classList.remove('open');
+    // });
   }
 };
 </script>

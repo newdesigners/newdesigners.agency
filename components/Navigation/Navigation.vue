@@ -12,9 +12,16 @@
         </NuxtLink>
       </li>
       <li class="nav-item mt-0.75">
-        <nuxt-link to="/post-a-design-project" class="nav-link btn btn-sm">
+        <!-- <nuxt-link to="/post-a-design-project" class="nav-link btn btn-sm">
           Post a design project
-        </nuxt-link>
+        </nuxt-link> -->
+        <a
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RbTkDX42-gROkMzHS38XZmJUQ1pQME5GRFlQNUpNNkgzQzdWWVNJRkREQS4u"
+          target="_blank"
+          rel="noopener nofollow"
+          class="btn"
+          >Please submit your project here</a
+        >
       </li>
     </ul>
   </nav>
