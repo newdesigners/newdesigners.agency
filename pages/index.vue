@@ -3,7 +3,7 @@
     <!-- Hero -->
     <section id="hero">
       <div class="container">
-        <Logo class="mx-auto mb-2" logoWidth="max-w-logo-sm md:max-w-logo" />
+        <Logo class="mx-auto mb-2 max-w-logo-sm md:max-w-logo" />
         <h1 class="mb-2">Hello World!</h1>
         <p class="md:text-2xl mx-auto">
           We are New Designers, the first student-run design agency in The
@@ -40,9 +40,13 @@
           live, so that the end product will be used IRL. Do you want to
           collaborate or have a design question waiting to be answered?
         </p>
-        <nuxt-link to="/post-a-design-project" class="btn">
-          Please submit your project here
-        </nuxt-link>
+        <a
+          href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RbTkDX42-gROkMzHS38XZmJUQ1pQME5GRFlQNUpNNkgzQzdWWVNJRkREQS4u"
+          target="_blank"
+          rel="noopener nofollow"
+          class="btn"
+          >Please submit your project here</a
+        >
       </div>
     </section>
 

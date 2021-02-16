@@ -1,10 +1,21 @@
 @layer components {
   .site-nav {
     .nav-menu {
+      &--header {
+        @apply text-white items-center;
+
+        .nav-item {
+          @apply lg:m-0;
+        }
+
+        .nav-link {
+          @apply mr-1;
+        }
+      }
     }
 
     .nav-item {
-      @apply mb-0.5;
+      @apply mb-0.75;
 
       &:last-of-type {
         @apply mb-0;
@@ -12,14 +23,27 @@
     }
 
     .nav-link {
-      @apply transition-colors hover:text-tertiary;
+      @apply relative font-bold transition-colors hover:text-tertiary;
 
       &.exact-active-link {
-        @apply text-tertiary;
+        @apply relative text-white;
+
+        &:after {
+          content: '';
+          @apply absolute w-full -bottom-0.25 left-0 h-0.125 bg-white;
+        }
       }
 
       &.btn {
         @apply hover:bg-tertiary hover:text-white;
+
+        &.exact-active-link {
+          @apply text-primary hover:text-white;
+
+          &:after {
+            content: none;
+          }
+        }
       }
 
       &.disabled {

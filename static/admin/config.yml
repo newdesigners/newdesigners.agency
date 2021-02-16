@@ -1,13 +1,15 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: newdesigners/newdesigners.agency
   branch: master
 
 publish_mode: editorial_workflow
 
 media_folder: static/img
 public_folder: /img
-
-# logo_url: https://help.waysagency.nl/images/logo/Ways-Agency-Logo.svg
+site_url: https://newdesigners.agency/
+display_url: https://newdesigners.agency/
+logo_url: https://newdesigners.agency/logo.svg
 
 locale: "en"
 show_preview_links: true
@@ -50,7 +52,10 @@ collections:
               widget: "boolean",
               default: false,
             }
-          - { label: "Paid", name: "paid", widget: "boolean", default: false }
+          - { label: "Paid", 
+              name: "paid",
+              widget: "boolean",
+              default: false }
           - {
               label: "Unpaid",
               name: "unpaid",
@@ -106,18 +111,10 @@ collections:
       - { label: "Project title", name: "title", widget: "string" }
 
       # Project description
-      - {
-          label: "Project description",
-          name: "project-description",
-          widget: "markdown",
-        }
+      - { label: "Project description", name: "project-description", widget: "markdown" }
 
       # Estimated duration
-      - {
-          label: "Estimated duration",
-          name: "estimated-duration",
-          widget: "string",
-        }
+      - { label: "Estimated duration", name: "estimated-duration", widget: "string" }
 
       # Company name
       - { label: "Company name", name: "company-name", widget: "string" }
@@ -132,8 +129,4 @@ collections:
       - { label: "Contact email", name: "contact-email", widget: "string" }
 
       # Contact phone number
-      - {
-          label: "Contact phone number",
-          name: "contact-phone-number",
-          widget: "string",
-        }
+      - { label: "Contact phone number", name: "contact-phone-number", widget: "string" }
