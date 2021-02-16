@@ -46,7 +46,7 @@ export default {
   @apply transition-height duration-500 ease-in-out;
 
   &.open {
-    max-height: 332px;
+    max-height: 352px;
     @apply transition-height duration-500 ease-in-out;
   }
 }

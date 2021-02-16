@@ -20,7 +20,9 @@
           target="_blank"
           rel="noopener nofollow"
           class="nav-link btn btn-sm"
-          >Submit a design project
+        >
+          <span class="pr-0.5">Submit a design project</span>
+          <span class="inline-flex items-center"><Fa icon="arrow-right"/></span>
         </a>
       </li>
     </ul>

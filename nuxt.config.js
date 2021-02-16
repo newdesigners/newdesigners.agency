@@ -55,6 +55,7 @@ export default {
         "faMapMarkerAlt",
         "faPaperPlane",
         "faArrowLeft",
+        "faArrowRight",
         "faFrown",
         "faBolt"
       ],

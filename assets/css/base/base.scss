@@ -51,7 +51,10 @@
 
     section {
       @apply py-3;
-      margin-top: 87px; /* Header height*/
+
+      &:first-child {
+        margin-top: 86px; /* Header height*/
+      }
 
       &:nth-of-type(odd) {
         @apply bg-gray;

@@ -9,13 +9,17 @@
         }
 
         .nav-link {
-          @apply mr-1;
+          @apply lg:mr-2.25;
+
+          &.btn {
+            @apply lg:mr-0;
+          }
         }
       }
     }
 
     .nav-item {
-      @apply mb-0.75;
+      @apply mb-1;
 
       &:last-of-type {
         @apply mb-0;

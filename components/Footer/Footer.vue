@@ -21,7 +21,7 @@
         <!-- Footer information -->
         <div id="footer-info" class="flex-1 mb-2 lg:mb-0">
           <h3>Contact information</h3>
-          <ul class="fa-ul">
+          <ul class="fa-ul ml-1.5">
             <li class="location mb-0.5">
               <span class="fa-li"><Fa icon="map-marker-alt"/></span>
               <p>
@@ -33,36 +33,39 @@
               </p>
             </li>
             <li class="instagram mb-0.5">
-              <span class="fa-li"><Fa :icon="['fab', 'instagram']"/></span
-              ><a
+              <span class="fa-li"><Fa :icon="['fab', 'instagram']"/></span>
+              <a
                 href="https://instagram.com/newdesigners.agency"
                 class="text-blue-pacific underline transition-colors hover:text-secondary"
                 target="_blank"
                 rel="noopener nofollow"
-                >Instagram</a
               >
+                Instagram
+              </a>
             </li>
 
             <li class="linkedin mb-0.5">
-              <span class="fa-li"><Fa :icon="['fab', 'linkedin']"/></span
-              ><a
+              <span class="fa-li"><Fa :icon="['fab', 'linkedin']"/></span>
+              <a
                 href="https://linkedin.com/companies/newdesigners"
                 class="text-blue-pacific underline transition-colors hover:text-secondary"
                 target="_blank"
                 rel="noopener nofollow"
-                >LinkedIn</a
               >
+                LinkedIn
+                </a>
             </li>
 
             <li class="github mb-0.5">
-              <span class="fa-li"><Fa :icon="['fab', 'github']"/></span
-              ><a
+              <span class="fa-li"><Fa :icon="['fab', 'github']"/></span>
+              <a
                 href="https://github.com/newdesigners/"
                 class="text-blue-pacific underline transition-colors hover:text-secondary"
                 target="_blank"
                 rel="noopener nofollow"
-                >Github</a
               >
+                Github
+              </a>
             </li>
 
             <li class="email mb-0.5">
@@ -70,8 +73,9 @@
               <a
                 href="mailto:newdesigners@hhs.nl"
                 class="text-blue-pacific underline transition-colors hover:text-secondary"
-                >newdesigners@hhs.nl</a
               >
+                newdesigners@hhs.nl
+              </a>
             </li>
 
             <li class="netlify">
@@ -82,8 +86,9 @@
                 class="text-blue-pacific underline transition-colors hover:text-secondary"
                 target="_blank"
                 rel="noopener nofollow"
-                >Netlify</a
               >
+                Netlify
+              </a>
             </li>
           </ul>
         </div>
@@ -92,9 +97,7 @@
     <section class="copyright-footer">
       <div class="container py-1 border-t text-sm flex">
         <div class="copyright">
-          <span
-            >&copy; {{ currentDate.getFullYear() }} New Designers Agency</span
-          >
+          <span>&copy; {{ currentDate.getFullYear() }} New Designers Agency</span>
         </div>
         <span class="divider mx-0.25">|</span>
         <div class="netlify-code">
@@ -104,8 +107,9 @@
               class="text-blue-pacific underline transition-colors hover:text-secondary"
               target="_blank"
               rel="noopener nofollow"
-              >Code of Conduct</a
             >
+              Code of Conduct
+            </a>
           </span>
         </div>
       </div>
