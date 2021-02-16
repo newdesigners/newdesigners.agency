@@ -4,11 +4,11 @@
   }
 
   .card-img {
-    @apply h-6 inline-block mt-1.25 transform transition-all;
+    @apply h-6 inline-block mt-2 transform transition-all;
   }
 
   .card-body {
-    @apply p-1.25;
+    @apply p-2;
   }
 
   .card-title {

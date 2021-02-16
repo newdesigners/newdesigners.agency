@@ -3,7 +3,7 @@
     <!-- Hero -->
     <section id="hero">
       <div class="container">
-        <h1 class="mb-2">Post a design project</h1>
+        <h1 class="mb-2">Submit a design project</h1>
       </div>
     </section>
     <form
@@ -133,7 +133,7 @@
           </div>
 
           <!-- Contact info -->
-          <h2 class="text-left mb-0">Contact info</h2>
+          <h2 class="text-left mb-1">Contact info</h2>
           <span class="block mb-1"
             >Please leave your contact info here. We will contact you within
             five working days.
@@ -174,7 +174,7 @@
             />
           </div>
 
-          <button type="submit" class="btn">Post my project!</button>
+          <button type="submit" class="btn">Submit my project</button>
         </div>
       </section>
     </form>
