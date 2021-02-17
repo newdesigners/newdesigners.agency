@@ -24,89 +24,110 @@ collections:
     editor:
       preview: false
     fields:
+
       # Publish date
-      - { label: "Publish date", name: "publish-date", widget: "datetime" }
+      - label: "Publish date"
+        name: "publish-date"
+        widget: "datetime"
+        date_format: "DD-MM-YYYY"
+
+      # Categories
+      # - label: "Categories"
+      #   name: "categories"
+      #   description: "Please check all categories that may apply."
+      #   widget: "object"
+      #   collapsed: true
+      #   fields:
+          # - {
+          #     label: "Internship",
+          #     name: "internship",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
+          # - {
+          #     label: "Graduation project",
+          #     name: "graduation-project",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
+          # - {
+          #     label: "Freelance",
+          #     name: "freelance",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
+          # - { label: "Paid", 
+          #     name: "paid",
+          #     widget: "boolean",
+          #     default: false }
+          # - {
+          #     label: "Unpaid",
+          #     name: "unpaid",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
+          # - {
+          #     label: "Research",
+          #     name: "research",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
+          # - {
+          #     label: "Design",
+          #     name: "design",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
+          # - {
+          #     label: "Development",
+          #     name: "development",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
 
       # Categories
       - label: "Categories"
-        name: "categories"
-        description: "Please check all categories that may apply."
-        widget: "object"
-        collapsed: true
-        fields:
-          - {
-              label: "Internship",
-              name: "internship",
-              widget: "boolean",
-              default: false,
-            }
-          - {
-              label: "Graduation project",
-              name: "graduation-project",
-              widget: "boolean",
-              default: false,
-            }
-          - {
-              label: "Freelance",
-              name: "freelance",
-              widget: "boolean",
-              default: false,
-            }
-          - { label: "Paid", 
-              name: "paid",
-              widget: "boolean",
-              default: false }
-          - {
-              label: "Unpaid",
-              name: "unpaid",
-              widget: "boolean",
-              default: false,
-            }
-          - {
-              label: "Research",
-              name: "research",
-              widget: "boolean",
-              default: false,
-            }
-          - {
-              label: "Design",
-              name: "design",
-              widget: "boolean",
-              default: false,
-            }
-          - {
-              label: "Development",
-              name: "development",
-              widget: "boolean",
-              default: false,
-            }
+        name: "Categories"
+        hint: "Please select all categories that may apply for this project"
+        widget: "select"
+        options: ["Internship", "Graduation Project", "Freelance", "Paid", "Unpaid", "Research", "Design", "Development"]
+        multiple: true
+        required: true
 
+      # Languages
+      # - label: "Languages"
+      #   name: "languages"
+      #   description: "Project language preference"
+      #   widget: "object"
+      #   collapsed: true
+      #   fields:
+          # - {
+          #     label: "English or Dutch",
+          #     name: "english-or-dutch",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
+          # - {
+          #     label: "Only English",
+          #     name: "only-english",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
+          # - {
+          #     label: "Only Dutch",
+          #     name: "only-dutch",
+          #     widget: "boolean",
+          #     default: false,
+          #   }
+      
       # Languages
       - label: "Languages"
         name: "languages"
-        description: "Project language preference."
-        widget: "object"
-        collapsed: true
-        fields:
-          - {
-              label: "English or Dutch",
-              name: "english-or-dutch",
-              widget: "boolean",
-              default: false,
-            }
-          - {
-              label: "Only English",
-              name: "only-english",
-              widget: "boolean",
-              default: false,
-            }
-          - {
-              label: "Only Dutch",
-              name: "only-dutch",
-              widget: "boolean",
-              default: false,
-            }
-
+        hint: "Project language preference"
+        required: true
+        widget: "select"
+        options: ["Dutch or English", "English", "Dutch"]
+      
       # Project title
       - { label: "Project title", name: "title", widget: "string" }
 
@@ -121,9 +142,6 @@ collections:
 
       # Company website
       - { label: "Company website", name: "company-website", widget: "string" }
-
-      # Contact name
-      - { label: "Contact name", name: "contact-name", widget: "string" }
 
       # Contact email
       - { label: "Contact email", name: "contact-email", widget: "string" }
