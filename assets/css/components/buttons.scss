@@ -1,6 +1,6 @@
 @layer components {
   .btn {
-    @apply bg-secondary py-0.75 px-1.5 font-bold text-xl rounded-md font-heading text-primary transition-colors inline-flex items-center hover:bg-primary hover:text-white;
+    @apply bg-secondary py-0.75 px-1.5 font-bold text-xl rounded-md font-heading text-primary transition-colors inline-flex items-center no-underline hover:bg-primary hover:text-white;
 
     &.btn-sm {
       @apply py-0.5 px-1 text-base font-medium;

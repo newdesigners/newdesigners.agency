@@ -57,7 +57,7 @@ export default {
         "faArrowLeft",
         "faArrowRight",
         "faFrown",
-        "faBolt"
+        "faBolt",
       ],
       brands: ["faInstagram", "faLinkedin", "faGithub"]
     }

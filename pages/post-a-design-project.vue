@@ -8,7 +8,7 @@
     </section>
     <form
       name="post-a-design-project"
-      action="/thanks"
+      action="/thanks/projects"
       method="post"
       netlify
       netlify-honeypot="bot-field"
