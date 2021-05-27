@@ -75,7 +75,6 @@ export default {
     this.projects = await this.$content("projects")
       .limit(5)
       .fetch();
-    console.log(this.projects);
   },
 
   methods: {
