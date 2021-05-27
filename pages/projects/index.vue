@@ -75,13 +75,20 @@ export default {
     this.projects = await this.$content("projects")
       .limit(5)
       .fetch();
+    console.log(this.projects);
   },
 
-  mounted() {
-    this.capitalize();
-    this.formatDate();
-  },
-
-  fetchDelay: 0
+  methods: {
+    formatDate(date) {
+      const options = { year: "numeric", month: "short", day: "numeric" };
+      return new Date(date).toLocaleDateString("nl", options);
+    },
+    capitalize(value) {
+      if (!value) return "";
+      value = value.toString();
+      value = value.charAt(0).toUpperCase() + value.slice(1);
+      return value.replace(/-/g, " ");
+    }
+  }
 };
 </script>
