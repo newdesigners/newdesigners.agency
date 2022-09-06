@@ -56,9 +56,6 @@
         margin-top: 86px; /* Header height*/
       }
 
-      &:nth-of-type(odd) {
-        @apply bg-gray;
-      }
     }
 
     ::selection {

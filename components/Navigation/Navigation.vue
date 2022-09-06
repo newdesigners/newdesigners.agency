@@ -12,18 +12,10 @@
         </NuxtLink>
       </li>
       <li class="nav-item mt-0.75">
-        <!-- <nuxt-link to="/post-a-design-project" class="nav-link btn btn-sm">
-          Post a design project
-        </nuxt-link> -->
-        <a
-          href="https://forms.office.com/Pages/ResponsePage.aspx?id=m2tYomf4PEuTY1tDXF28RbTkDX42-gROkMzHS38XZmJUQ1pQME5GRFlQNUpNNkgzQzdWWVNJRkREQS4u"
-          target="_blank"
-          rel="noopener nofollow"
-          class="nav-link btn btn-sm"
-        >
-          <span class="pr-0.5">Submit a design project</span>
-          <span class="inline-flex items-center"><Fa icon="arrow-right"/></span>
-        </a>
+        <nuxt-link to="/post-a-design-project" class="nav-link btn btn-sm">
+          Submit project
+          <span class="inline-flex items-center pl-0.5"><Fa icon="arrow-right"/></span>
+        </nuxt-link>
       </li>
     </ul>
   </nav>
@@ -38,10 +30,9 @@ export default {
     return {
       items: [
         { link: "/", text: "Home" },
-        { link: "/projects", text: "Projects", disabled: true},
-        { link: "/studentwork", text: "Studentwork", disabled: true },
-        { link: "/become-a-member", text: "Become a member", disabled: true },
-        { link: "/contact", text: "Contact", disabled: true }
+        { link: "/work", text: "Projects", disabled: false},
+        { link: "/about", text: "About", disabled: false},
+        { link: "/contact", text: "Contact", disabled: false }
       ]
     };
   }

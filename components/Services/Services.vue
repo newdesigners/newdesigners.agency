@@ -1,26 +1,29 @@
 <template>
   <div class="services text-center lg:flex lg:space-x-1">
-    <Service
-      class="mb-1 lg:mb-0"
-      image="design"
-      heading="Visual design"
-      text="From company styles, wireframes to high-fidelity prototypes, we design digital interfaces for everyone."
-    >
-      <h1>Hi there</h1>
-    </Service>
 
     <Service
       class="mb-1 lg:mb-0"
       image="research"
       heading="Research"
-      text="Our members are UX researchers by heart. They dive into design questions and place themselves in your users shoes. We promise that as a client you'll get a fresh angle."
+      text="As User Experience researchers we dive into design questions and place ourselves in your users shoes. We promise that as a client you'll get a fresh angle."
     />
+
+
+    <Service
+      class="mb-1 lg:mb-0"
+      image="design"
+      heading="Design"
+      text="From company branding, wireframes to high-fidelity prototypes, we design digital interfaces and more."
+    >
+      <h1>Hi there</h1>
+    </Service>
+
 
     <Service
       class="mb-1 lg:mb-0"
       image="development"
-      heading="Web Development"
-      text="We specialize in translating designs pixel-perfectly into modern JamStack websites."
+      heading="Development"
+      text="We specialize in translating designs pixel-perfectly into modern JamStack websites or we build native apps. "
     />
   </div>
 </template>

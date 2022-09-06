@@ -3,7 +3,7 @@
     <!-- Hero -->
     <section id="hero">
       <div class="container">
-        <h1 class="mb-2">Submit a design project</h1>
+        <h1 class="mb-2">Submit a project</h1>
       </div>
     </section>
     <form
@@ -16,7 +16,8 @@
       <input type="hidden" name="form-name" value="post-a-design-project" />
 
       <!-- Project info -->
-      <section>
+      <section class="bg-realwhite">
+
         <div class="container max-w-3xl">
           <h2 class="text-left mb-1">What kind of project is it?</h2>
 
@@ -186,14 +187,15 @@ export default {
   data() {
     return {
       categories: [
-        "Internship",
-        "Graduation project",
-        "Freelance",
-        "Paid",
-        "Unpaid",
-        "Research",
-        "Design",
-        "Development"
+        "Branding",
+        "Web Design",
+        "Visual Design",
+        "Graphic Design",
+        "User testing",
+        "Edtech",
+        "Photography",
+        "Motion Design",
+        "Other ...",
       ],
       languages: ["English or Dutch", "Only English", "Only Dutch"]
     };

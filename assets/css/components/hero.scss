@@ -1,5 +1,6 @@
 @layer components {
   #hero {
-    @apply bg-yellow text-center;
+    @apply pt-12 pb-12 bg-blue-pacific bg-center bg-no-repeat text-center text-white;
+    background-image: url('~@/assets/images/hero.png');
   }
 }

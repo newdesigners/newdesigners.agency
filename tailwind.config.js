@@ -20,6 +20,7 @@ module.exports = {
 
       // Abstract
       white: "#F2F2F2",
+      realwhite: "#FFFFFF",
       gray: "#E9EBEC",
       black: "#000000",
 

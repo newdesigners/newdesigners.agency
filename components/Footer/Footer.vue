@@ -1,5 +1,5 @@
 <template>
-  <footer id="site-footer" class="bg-primary text-white">
+  <footer id="site-footer" class="clear-both bg-primary text-white">
     <section>
       <div class="container py-3 sm:flex flex-wrap sm:space-x-2">
         <!-- Footer logo -->
@@ -109,6 +109,16 @@
               rel="noopener nofollow"
             >
               Code of Conduct
+            </a>
+          </span>
+          <span class="pl-1">
+            <a
+              href="/terms-and-conditions.pdf"
+              class="text-blue-pacific underline transition-colors hover:text-secondary"
+              target="_blank"
+              rel="noopener nofollow"
+            >
+              Terms and conditions
             </a>
           </span>
         </div>
