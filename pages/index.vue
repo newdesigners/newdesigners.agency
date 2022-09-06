@@ -6,7 +6,7 @@
 <!--         <Logo class="mx-auto mb-2 max-w-logo-sm md:max-w-logo" /> -->
         <h1 class="mb-2">We are New Designers</h1>
         <p class="md:text-2xl mx-auto">
-          We specialize in digital design. We love creating <a href="" class="text-white">websites</a> with beautiful UX, but also do <a href="" class="text-white">rebrands</a> and <a href="" class="text-white">motion design</a>.
+          We specialize in digital design. We love creating <a href="/work" class="text-white">websites</a> with beautiful UX, but we also <a href="/work" class="text-white">rebrand</a> and do <a href="/work" class="text-white">motion design</a>.
         </p>
       </div>
     </section>
@@ -16,7 +16,7 @@
       <div class="container">
 
           <h2>A student-run digital agency</h2>
-          <p class="mb-2 mx-auto">We are a bit different then your ordinary agency. You will be working with young creative and innovative minds with an eye for detail. Our core value is to #learnbydoing, iterating our designs and gradually improving them. We work from our beautiful office located in <a href="/contact">The Hague</a> (University of Applied Sciences).</p>
+          <p class="mb-2 mx-auto"><a href="/about">We are a bit different</a> then your ordinary agency. You will be working with young creative and innovative minds with an eye for detail. Our core value is to #learnbydoing, iterating our designs and gradually improving them. We work from our beautiful office located in <a href="/contact">The Hague</a> (University of Applied Sciences).</p>
           <div>
             <img src="~/assets/images/new-designers-office.png"  class="block mx-auto">
           </div>
