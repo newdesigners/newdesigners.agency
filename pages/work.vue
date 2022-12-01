@@ -12,7 +12,30 @@
     <!-- Work -->
     <section id="work">
       <div class="container">
+      
+        <div class="flex">
+          <div class="p-1">
+            <img src="~/assets/images/work/FutureYou.jpg"  class="block pt-2 pb-2">
+            <h3>Future You - <a href="https://futureyou.hhs.nl/">Website</a></h3>
+            <p>Website design and development</p>
+            <p class="pt-1">
+              <strong class="pr-2">Web Design</strong>
+              <strong class="pr-2">Development</strong>
+            </p>
+          </div>
 
+          <div class="p-1">
+            <img src="~/assets/images/work/EuropeanProfessionals.jpg"  class="block pt-2 pb-2">
+            <h3>European Professionals</h3>
+            <p>Website design and development</p>
+            <p class="pt-1">
+              <strong class="pr-2">Web Design</strong>
+              <strong class="pr-2">Development</strong>
+              <strong>CMS</strong>
+            </p>
+          </div>
+        </div>  
+        
         <div class="flex">
           <div class="p-1">
             <img src="~/assets/images/work/joint-cyber-range.jpg"  class="block pt-2 pb-2">
