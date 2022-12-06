@@ -26,7 +26,7 @@
 
           <div class="p-1">
             <img src="~/assets/images/work/EuropeanProfessionals.jpg"  class="block pt-2 pb-2">
-            <h3>European Professionals - COMING SOON</h3>
+            <h3>European Professionals - <a href="https://europeanprofessionals.eu/">Website</a></h3>
             <p>Read inspiring interviews from European Professionals</p>
             <p class="pt-1">
               <strong class="pr-2">Web Design</strong>
