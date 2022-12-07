@@ -17,7 +17,7 @@
           <div class="p-1">
             <img src="~/assets/images/work/FutureYou.jpg"  class="block pt-2 pb-2">
             <h3>Future You - <a href="https://futureyou.hhs.nl/">Website</a></h3>
-            <p>An online game that gives you a quick insight into your areas of interest for when you start studying</p>
+            <p>A way to get quick insight into your areas of interest for when you start studying</p>
             <p class="pt-1">
               <strong class="pr-2">Web Design</strong>
               <strong class="pr-2">Development</strong>
