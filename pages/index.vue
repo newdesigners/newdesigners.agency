@@ -3,7 +3,7 @@
     <!-- Hero -->
     <section class="relative flex items-center h-screen pt-0 pb-0 text-center text-white">
 
-      <video loop muted autoplay preload="auto" class="absolute top-0 left-0 z-0 w-full h-full object-cover">
+      <video playsinline loop muted autoplay class="absolute top-0 left-0 z-0 w-full h-full object-cover">
         <source src="../assets/videos/showreelND.mp4" type="video/mp4">
       </video>
 
