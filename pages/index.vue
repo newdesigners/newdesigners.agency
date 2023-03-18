@@ -1,16 +1,23 @@
 <template>
   <main>
     <!-- Hero -->
-    <section id="hero">
-      <div class="container">
-<!--         <Logo class="mx-auto mb-2 max-w-logo-sm md:max-w-logo" /> -->
-        <h1 class="mb-2">We are New Designers</h1>
-        <p class="md:text-2xl mx-auto">
-          We specialize in digital design. We love creating <a href="/work" class="text-white">websites</a> with beautiful UX, but we also <a href="/work" class="text-white">rebrand</a> and do <a href="/work" class="text-white">motion design</a>.
-        </p>
-      </div>
-    </section>
+    <section class="relative flex items-center h-screen pt-0 pb-0 text-center text-white">
 
+      <video loop muted autoplay preload="auto" class="absolute top-0 left-0 z-0 w-full h-full object-cover">
+        <source src="../assets/videos/showreelND.mp4" type="video/mp4">
+      </video>
+
+
+ <div class="relative container text-white z-30">
+        <h1 class="mb-2 md:text-7xl">We are New Designers</h1>
+        <p class="md:text-2xl text-1xl mx-auto">
+          We specialize in <span class="text-secondary">digital design</span>. We love creating websites with beautiful UX, but we also <span class="text-secondary">rebrand</span> and do <span class="text-secondary">motion design</span>.
+        </p>
+      </div> 
+      
+    </section>
+    
+   
     <!-- Who we are -->
     <section id="who-we-are" class="bg-gray">
       <div class="container">
