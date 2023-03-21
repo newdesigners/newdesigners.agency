@@ -1,23 +1,23 @@
 <template>
   <main>
     <!-- Hero -->
-    <section class="relative flex items-center h-screen pt-0 pb-0 text-center text-white">
-
-      <video playsinline loop muted autoplay class="absolute top-0 left-0 z-0 w-full h-full object-cover">
-        <source src="../assets/videos/showreelND.mp4" type="video/mp4">
+    <section class="relative flex items-center justify-center h-screen pt-0 pb-0 text-center bg-primary">
+     
+      <video playsinline loop muted autoplay class="absolute top-0 left-0 z-0 w-full h-full object-cover opacity-40">
+        <source src="~/assets/videos/showreelND.mp4" type="video/mp4">
       </video>
 
 
- <div class="relative container text-white z-30">
-        <h1 class="mb-2 md:text-7xl">We are New Designers</h1>
-        <p class="md:text-2xl text-1xl mx-auto">
-          We specialize in <span class="text-secondary">digital design</span>. We love creating websites with beautiful UX, but we also <span class="text-secondary">rebrand</span> and do <span class="text-secondary">motion design</span>.
+
+ <div class="relative container text-white">
+        <h1 class="mb-2.5 md:text-6xlxl">WE ARE NEW DESIGNERS</h1>
+        <p class="md:text-3xl text-1xl mx-auto max-w-4xl">
+          We specialize in <a href="/work" class="text-secondary">digital design</a>. We love creating websites with beautiful UX, but we also <a href="/work" class="text-secondary">rebrand</a> and do <a href="/work" class="text-secondary">motion design</a>.
         </p>
       </div> 
       
     </section>
     
-   
     <!-- Who we are -->
     <section id="who-we-are" class="bg-gray">
       <div class="container">
