@@ -79,6 +79,18 @@
  }
 }
 
+#faq{
+  @apply flex flex-row items-center justify-start;
+
+  h1{
+    @apply text-4xl;
+  }
+}
+
+.questionblock{
+  @apply bg-tertiary
+}
+
 /*
 .lazyLoad {
   @apply opacity-0;

@@ -116,12 +116,15 @@ module.exports = {
       width: {
         inherit: "inherit",
         'testimg': '196px',
-        'testimgsmall': '135px'
+        'testimgsmall': '135px',
+        'faqwidth': '946px',
 
       },
       height:{
         'testimg': '196px',
-        'testimgsmall': '135px'
+        'testimgsmall': '135px',
+        'faqheight': '84px',
+
 
       },
       maxWidth: {

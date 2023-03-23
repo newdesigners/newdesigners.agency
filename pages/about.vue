@@ -32,6 +32,26 @@
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section id="faq">
+    <div class="container">
+      <div class="relative">
+        <h1 class="z-20 relative">FAQ</h1>
+        <div class="absolute z-0 top-1.75 left-0.5 bg-yellow w-5 h-0.875"></div>
+      </div>
+
+      <div class="flex flex-col justify-center items-center mt-5">
+        <questionblock question="Do you work with strict contracts full of fine sprint?"/>
+        <questionblock question="What sets you apart from other agencies?"/>
+        <questionblock question="What are you all doing for further training?"/>
+        <questionblock question="Project internships or follow-up internships?"/>
+
+      </div>
+
+
+    </div>
+    </section>
+
     <!-- What we do -->
     <section id="what-we-do">
       <div class="container">
