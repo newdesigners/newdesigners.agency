@@ -114,7 +114,15 @@ module.exports = {
         md: ["1.0625rem", { lineHeight: "1.5em" }]
       },
       width: {
-        inherit: "inherit"
+        inherit: "inherit",
+        'testimg': '196px',
+        'testimgsmall': '135px'
+
+      },
+      height:{
+        'testimg': '196px',
+        'testimgsmall': '135px'
+
       },
       maxWidth: {
         "logo-xsm": "75px",

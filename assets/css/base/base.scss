@@ -72,6 +72,13 @@
   }
 }
 
+#testimonials{
+ @apply bg-primary text-white;
+ a{
+  @apply no-underline
+ }
+}
+
 /*
 .lazyLoad {
   @apply opacity-0;
