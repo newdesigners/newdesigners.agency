@@ -117,13 +117,13 @@ module.exports = {
         inherit: "inherit",
         'testimg': '196px',
         'testimgsmall': '135px',
-        'faqwidth': '946px',
+        'faqwidthlg': '59.125rem',
 
       },
       height:{
         'testimg': '196px',
         'testimgsmall': '135px',
-        'faqheight': '84px',
+        'faqheight': '5.25rem',
 
 
       },
