@@ -41,10 +41,10 @@
       </div>
 
       <div class="flex flex-col justify-center items-center mt-5">
-        <questionblock question="Do you work with strict contracts full of fine sprint?"/>
-        <questionblock question="What sets you apart from other agencies?"/>
-        <questionblock question="What are you all doing for further training?"/>
-        <questionblock question="Project internships or follow-up internships?"/>
+        <questionblock question="Do you work with strict contracts full of fine sprint?" answer="We work on a flexible contract system. We can sign a contract for the entire project, or we can book a sprint only. Each sprint consists of two weeks. The number of sprints needed to implement the project is determined when discussing the project with the client."/>
+        <questionblock question="What sets you apart from other agencies?" answer="We work on a flexible contract system. We can sign a contract for the entire project, or we can book a sprint only. Each sprint consists of two weeks. The number of sprints needed to implement the project is determined when discussing the project with the client."/>
+        <questionblock question="What are you all doing for further training?" answer="We work on a flexible contract system. We can sign a contract for the entire project, or we can book a sprint only. Each sprint consists of two weeks. The number of sprints needed to implement the project is determined when discussing the project with the client."/>
+        <questionblock question="Project internships or follow-up internships?" answer="We work on a flexible contract system. We can sign a contract for the entire project, or we can book a sprint only. Each sprint consists of two weeks. The number of sprints needed to implement the project is determined when discussing the project with the client."/>
 
       </div>
 
