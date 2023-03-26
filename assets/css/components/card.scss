@@ -15,6 +15,10 @@
     @apply mb-0;
   }
 
+  .card-price {
+    @apply text-xs font-mono mb-0.125
+  }
+
   .card-subtitle {
     @apply mb-0.5;
   }

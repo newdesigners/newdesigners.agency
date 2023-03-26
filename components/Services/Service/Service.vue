@@ -9,6 +9,7 @@
       <h3 class="card-title">
         {{ heading }}
       </h3>
+      <h4 class="card-price">From {{price}} euro</h4>
       <p class="card-text">
         {{ text }}
       </p>
@@ -21,7 +22,8 @@ export default {
   props: {
     image: String,
     heading: String,
-    text: String
+    text: String,
+    price: String
   }
 };
 </script>

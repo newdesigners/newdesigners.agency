@@ -13,7 +13,7 @@
       </li>
       <li class="nav-item mt-0.75">
         <nuxt-link to="/post-a-design-project" class="nav-link btn btn-sm">
-          Submit project
+          Work with us
           <span class="inline-flex items-center pl-0.5"><Fa icon="arrow-right"/></span>
         </nuxt-link>
       </li>

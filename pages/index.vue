@@ -24,11 +24,8 @@
     <section id="who-we-are" class="bg-gray">
       <div class="container">
 
-        <h2>A student-run digital agency</h2>
-        <p class="mb-2 mx-auto"><a href="/about">We are a bit different</a> then your ordinary agency. You will be working
-          with young creative and innovative minds with an eye for detail. Our core value is to #learnbydoing, iterating
-          our designs and gradually improving them. We work from our beautiful office located in <a href="/contact">The
-            Hague</a> (University of Applied Sciences).</p>
+        <h2>We help MKB to scale their business</h2>
+        <p class="mb-2 mx-auto">Transform your company into a design-led powerhouse with the help of New Designers. We specialize in helping businesses like yours become more attractive and balanced in their media presence, both online and offline. From creating stunning new branding to producing engaging videos, our team of experts will work with you every step of the way to ensure that your company stands out from the competition.</p>
         <div>
           <img src="~/assets/images/new-designers-office.png" class="block mx-auto">
         </div>
@@ -54,11 +51,11 @@
         </div>
         <h2 class="mt-2">How we work</h2>
         <p class="mb-2 mx-auto">
-          Students work in multidisciplinary agile teams when
-          realising projects. Our goal is to have every design built and put live. Do you want to collaborate or have a
-          design question waiting to be answered?
+          Our design and video production services are top-notch, and we take pride in delivering exceptional 
+          results for every client we work with. Whether you need a new logo and branding guidelines, 
+          a responsive and user-friendly website, or a stunning video that tells your company's story, we've got you covered.
         </p>
-        <nuxt-link to="/post-a-design-project" class="btn">Please submit your project</nuxt-link>
+        <nuxt-link to="/post-a-design-project" class="btn">Work with us</nuxt-link>
       </div>
     </section>
 

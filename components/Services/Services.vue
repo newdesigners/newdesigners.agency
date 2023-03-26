@@ -3,17 +3,19 @@
 
     <Service
       class="mb-1 lg:mb-0"
-      image="research"
-      heading="Research"
-      text="As User Experience researchers we dive into design questions and place ourselves in your users shoes. We promise that as a client you'll get a fresh angle."
+      image="branding"
+      heading="Branding"
+      price="1500"
+      text="We'll work with you to develop a comprehensive branding strategy that reflects your values and resonates with your target audience."
     />
 
 
     <Service
       class="mb-1 lg:mb-0"
-      image="design"
-      heading="Design"
-      text="From company branding, wireframes to high-fidelity prototypes, we design digital interfaces and more."
+      image="websites"
+      heading="Websites"
+      price="4500"
+      text="We'll work closely with you to understand your needs and preferences and then build a customized website that reflects your brand and meets your goals."
     >
       <h1>Hi there</h1>
     </Service>
@@ -21,9 +23,10 @@
 
     <Service
       class="mb-1 lg:mb-0"
-      image="development"
-      heading="Development"
-      text="We specialize in translating designs pixel-perfectly into modern JamStack websites or we build native apps. "
+      image="video"
+      heading="Video"
+      price="3500"
+      text="Let us help you create a video that stands out from the crowd and drives results for your business."
     />
   </div>
 </template>

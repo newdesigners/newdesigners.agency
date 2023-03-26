@@ -20,8 +20,7 @@
 
         <div class="container max-w-3xl">
           <h2 class="text-left mb-1">What kind of project is it?</h2>
-
-          <!-- Categories -->
+<!--        
           <div id="categories" class="form-group">
             <span>Please check all categories that may apply.</span>
 
@@ -46,7 +45,7 @@
             </div>
           </div>
 
-          <!-- Languages -->
+       
           <div id="languages" class="form-group">
             <span>Project language preference.</span>
 
@@ -68,6 +67,8 @@
               </label>
             </div>
           </div>
+        -->
+
 
           <!-- Project title -->
           <div class="form-group">
@@ -121,8 +122,7 @@
             />
           </div>
 
-          <!-- Company website -->
-          <div class="form-group mb-4">
+          <!-- <div class="form-group mb-4">
             <label for="company-website">Company website *</label>
             <input
               type="url"
@@ -131,7 +131,7 @@
               id="company-website"
               required
             />
-          </div>
+          </div> -->
 
           <!-- Contact info -->
           <h2 class="text-left mb-1">Contact info</h2>
