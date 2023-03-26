@@ -101,6 +101,21 @@
   @apply bg-tertiary
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.test{
+  height: 1300px;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
 /*
 .lazyLoad {
   @apply opacity-0;

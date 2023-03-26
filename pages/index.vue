@@ -93,6 +93,36 @@
       </div>
     </section>
 
+    <!--Preview-->
+    <section>
+      <vue-marquee-slider class="pb-6"
+        id="marquee-slider-loop"
+        :speed="3000"
+        :width="300"
+        :space="0">
+           <h1>OUR WORK</h1>
+        </vue-marquee-slider>
+
+        <div class="container grid grid-cols-2 gap-2 text-center">
+          <div class="column items-stretch">
+            <img src="../assets/images/projects/FutureYou 1.png">
+            <img src="../assets/images/projects/hsif 1.png">
+            <img src="../assets/images/projects/joint-cyber-range 1.png">
+          </div>
+          <div class="column items-stretch">
+            <img class="h-24" src="../assets/images/projects/ads-ai 1.png">
+            <img class="h-24" src="../assets/images/projects/eu-impacthub 1.png">
+            <img class="h-24" src="../assets/images/projects/applied-research-project 1.png">
+          </div>
+        </div>
+        <div class="flex justify-center pt-2">
+        <nuxt-link to="/projects" class="nav-link btn btn-sm self-center">
+          More projects
+        </nuxt-link>
+      </div>
+
+    </section>
+
 
     <!-- Incubator -->
     <section id="incubator">
@@ -117,6 +147,11 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import VueMarqueeSlider from 'vue-marquee-slider';
+Vue.use(VueMarqueeSlider)
+
+
 export default {
   head() {
     return {
