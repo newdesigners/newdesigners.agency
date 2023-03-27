@@ -9,7 +9,7 @@
       <h3 class="card-title">
         {{ heading }}
       </h3>
-      <h4 class="card-price">From {{price}} euro</h4>
+      <h4 class="card-price pb-1">From &euro;{{price}},-</h4>
       <p class="card-text">
         {{ text }}
       </p>

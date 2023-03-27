@@ -3,9 +3,14 @@
     <!-- Hero -->
     <section id="hero">
       <div class="container">
-        <h1 class="mb-2">Submit a project</h1>
+        <Logo class="mx-auto mb-2 max-w-logo-sm md:max-w-logo" />
+        <h1 class="mb-2">Let’s get in touch!</h1>
+        <p class="md:text-2xl mx-auto">The Hague University of Applied Sciences - Johanna Westerdijkplein 75 - 2521 EN The Hague -
+        Room SL7.02 - <a href="mailto:newdesigners@hhs.nl" class="text-white">newdesigners@hhs.nl</a></p>
+
       </div>
     </section>
+    
     <form
       name="post-a-design-project"
       action="/thanks/projects"
@@ -19,7 +24,7 @@
       <section class="bg-realwhite">
 
         <div class="container max-w-3xl">
-          <h2 class="text-left mb-1">What kind of project is it?</h2>
+          <h2 class="text-left mb-1">Call me back</h2>
 <!--        
           <div id="categories" class="form-group">
             <span>Please check all categories that may apply.</span>
@@ -70,7 +75,7 @@
         -->
 
 
-          <!-- Project title -->
+          <!-- Project title 
           <div class="form-group">
             <label for="project-title">Project title *</label>
             <input
@@ -80,9 +85,9 @@
               id="project-title"
               required
             />
-          </div>
+          </div>-->
 
-          <!-- Project description -->
+          <!-- Project description 
           <div class="form-group">
             <label for="project-description"
               >Project description (e.g. what is your design problem?) *</label
@@ -94,9 +99,9 @@
               rows="3"
               required
             ></textarea>
-          </div>
+          </div>-->
 
-          <!-- Estimated duration -->
+          <!-- Estimated duration 
           <div class="form-group">
             <label for="estimated-duration"
               >What is the estimated duration of the project? And deadline or
@@ -109,8 +114,8 @@
               id="estimated-duration"
             />
           </div>
-
-          <!-- Company name -->
+-->
+          <!-- Company name 
           <div class="form-group">
             <label for="company-name">Company name *</label>
             <input
@@ -120,7 +125,7 @@
               id="company-name"
               required
             />
-          </div>
+          </div>-->
 
           <!-- <div class="form-group mb-4">
             <label for="company-website">Company website *</label>
@@ -134,7 +139,6 @@
           </div> -->
 
           <!-- Contact info -->
-          <h2 class="text-left mb-1">Contact info</h2>
           <span class="block mb-1"
             >Please leave your contact info here. We will contact you within
             five working days.
@@ -179,6 +183,7 @@
         </div>
       </section>
     </form>
+
   </main>
 </template>
 

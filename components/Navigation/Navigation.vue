@@ -13,7 +13,7 @@
       </li>
       <li class="nav-item mt-0.75">
         <nuxt-link to="/post-a-design-project" class="nav-link btn btn-sm">
-          Work with us
+          Get started
           <span class="inline-flex items-center pl-0.5"><Fa icon="arrow-right"/></span>
         </nuxt-link>
       </li>
@@ -29,10 +29,9 @@ export default {
   data() {
     return {
       items: [
-        { link: "/", text: "Home" },
-        { link: "/work", text: "Projects", disabled: false},
-        { link: "/about", text: "About", disabled: false},
-        { link: "/contact", text: "Contact", disabled: false }
+        { link: "/", text: "Introduction" },
+        { link: "/work", text: "Our projects", disabled: false},
+        { link: "/about", text: "About us", disabled: false},
       ]
     };
   }

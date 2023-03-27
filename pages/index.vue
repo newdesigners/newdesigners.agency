@@ -7,15 +7,17 @@
         <source src="~/assets/videos/showreelND.mp4" type="video/mp4">
       </video>
 
-
-
       <div class="relative container text-white">
-        <h1 class="mb-2.5 md:text-6xlxl">WE ARE NEW DESIGNERS</h1>
+        <h1 class="mb-2.5 md:text-6xlxl">YOUR PERSONAL DESIGN AGENCY</h1>
+        <!-- <p class="md:text-3xl text-1xl mx-auto max-w-4xl">
+          We specialize in digital design</a>. We love creating websites with
+          beautiful UX, but we also rebrand</a> and make <a href="/work"
+            class="text-secondary">videos</a>.
+        </p> -->
+
         <p class="md:text-3xl text-1xl mx-auto max-w-4xl">
-          We specialize in <a href="/work" class="text-secondary">digital design</a>. We love creating websites with
-          beautiful UX, but we also <a href="/work" class="text-secondary">rebrand</a> and do <a href="/work"
-            class="text-secondary">motion design</a>.
-        </p>
+          Whether you need a new <a href="/work" class="text-secondary">logo and branding</a> guidelines, a responsive and user-friendly <a href="/work" class="text-secondary">website</a>, or a stunning <a href="/work" class="text-secondary">brand video</a> that tells your company's story, we've got you covered!
+        </p>        
       </div>
 
     </section>
@@ -24,8 +26,8 @@
     <section id="who-we-are" class="bg-gray">
       <div class="container">
 
-        <h2>We help MKB to scale their business</h2>
-        <p class="mb-2 mx-auto">Transform your company into a design-led powerhouse with the help of New Designers. We specialize in helping businesses like yours become more attractive and balanced in their media presence, both online and offline. From creating stunning new branding to producing engaging videos, our team of experts will work with you every step of the way to ensure that your company stands out from the competition.</p>
+        <h2>Hello, how can we help you?</h2>
+        <p class="mb-2 mx-auto">We specialize in helping businesses become more attractive and balanced in their media presence, both online and offline. From creating stunning new branding to producing engaging videos, our team of experts will work with you every step of the way to ensure that your company stands out from the competition.</p>
         <div>
           <img src="~/assets/images/new-designers-office.png" class="block mx-auto">
         </div>
@@ -37,25 +39,8 @@
     <!-- What we do -->
     <section id="what-we-do">
       <div class="container">
-        <h2>Our services</h2>
+        <h2>CREATED FOR YOU</h2>
         <Services />
-      </div>
-    </section>
-    
-
-    <!-- Client -->
-    <section id="clients" class="bg-gray">
-      <div class="container text-center">
-        <div>
-          <img src="~/assets/images/how-we-work.png" class="block mx-auto">
-        </div>
-        <h2 class="mt-2">How we work</h2>
-        <p class="mb-2 mx-auto">
-          Our design and video production services are top-notch, and we take pride in delivering exceptional 
-          results for every client we work with. Whether you need a new logo and branding guidelines, 
-          a responsive and user-friendly website, or a stunning video that tells your company's story, we've got you covered.
-        </p>
-        <nuxt-link to="/post-a-design-project" class="btn">Work with us</nuxt-link>
       </div>
     </section>
 
@@ -63,16 +48,16 @@
     <section id="testimonials">
       <div class="flex justify-center items-center flex-col lg:flex-row lg:ml-18 lg:mr-auto px-1">
 
-          <a href="https://www.linkedin.com/in/hanneke-van-riet-3b029613/">
-            <div class="lg:mr-4 mb-2 lg:mb-0 w-12 rounded-full">
+        <a href="https://www.linkedin.com/in/hanneke-van-riet-3b029613/">
+          <div class="lg:mr-4 mb-2 lg:mb-0 w-12 rounded-full">
 
-            <img class="rounded-full aspect-square"
-              src="https://media.licdn.com/dms/image/C5603AQHemArdr_hkhA/profile-displayphoto-shrink_800_800/0/1637959446354?e=2147483647&v=beta&t=txyKyrOx9R8uncWCBtby-dZ50ZV5yAjW3vXfYP0rZxg">
-            </div>
-            </a>
+          <img class="rounded-full aspect-square"
+            src="https://media.licdn.com/dms/image/C5603AQHemArdr_hkhA/profile-displayphoto-shrink_800_800/0/1637959446354?e=2147483647&v=beta&t=txyKyrOx9R8uncWCBtby-dZ50ZV5yAjW3vXfYP0rZxg">
+          </div>
+        </a>
 
         <div class="flex flex-col lg:mr-4">
-          <p class="text-xl md:text-3xl font-bold">‘ Our collaboration with the New Designers surpassed our expectations,
+          <p class="text-xl md:text-3xl font-bold">‘Our collaboration with the New Designers surpassed our expectations,
             as they were not only easy to work with but also receptive to feedback and quick to take action.‘</p>
           <div class="mt-1.25 ">
             <a class="inline-block" href="https://www.linkedin.com/in/hanneke-van-riet-3b029613/">
@@ -103,7 +88,7 @@
            <h1>OUR WORK</h1>
         </vue-marquee-slider>
 
-        <div class="container grid grid-cols-2 gap-2 text-center">
+        <div class="container grid lg:grid-cols-2 gap-2 text-center">
           <div class="column items-stretch">
             <img src="../assets/images/projects/FutureYou 1.png">
             <img src="../assets/images/projects/hsif 1.png">
@@ -123,9 +108,22 @@
 
     </section>
 
+    <!-- Client -->
+    <section id="clients" class="bg-gray">
+      <div class="container text-center">
+        <div>
+          <img src="~/assets/images/how-we-work.png" class="block mx-auto">
+        </div>
+        <h2 class="mt-2">GET STARTED</h2>
+        <p class="mb-2 mx-auto">
+          At New Designers, we create custom solutions tailored to your needs. After a personal consultation, we'll provide a fixed-price package that meets your goals and budget. 
+        </p>
+        <nuxt-link to="/post-a-design-project" class="btn">Contact us to get started today.</nuxt-link>
+      </div>
+    </section>
 
     <!-- Incubator -->
-    <section id="incubator">
+    <!-- <section id="incubator">
       <div class="container text-center overflow-hidden">
         <h2>Edtech Incubator</h2>
         <img src="~/assets/images/submit-project.png" class="float-right pl-2 pb-6">
@@ -140,7 +138,7 @@
           to apply for our incubator.
         </p>
       </div>
-    </section>
+    </section> -->
 
     
   </main>
