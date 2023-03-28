@@ -17,7 +17,7 @@
 
         <p class="md:text-3xl text-1xl mx-auto max-w-4xl">
           Whether you need a new <a href="/work" class="text-secondary">logo and branding</a> guidelines, a responsive and user-friendly <a href="/work" class="text-secondary">website</a>, or a stunning <a href="/work" class="text-secondary">brand video</a> that tells your company's story, we've got you covered!
-        </p>        
+        </p>
       </div>
 
     </section>
@@ -27,7 +27,7 @@
       <div class="container">
 
         <h2>Hello, how can we help you?</h2>
-        <p class="mb-2 mx-auto">We specialize in helping businesses become more attractive and balanced in their media presence, both online and offline. From creating stunning new branding to producing engaging videos, our team of experts will work with you every step of the way to ensure that your company stands out from the competition.</p>
+        <p class="mb-2 mx-auto text-center">We specialize in helping businesses become more attractive and balanced in their media presence, both online and offline. From creating new branding to producing engaging videos, our team of experts will work with you every step of the way to ensure that your company stands out from the competition.</p>
         <div>
           <img src="~/assets/images/new-designers-office.png" class="block mx-auto">
         </div>
@@ -44,48 +44,16 @@
       </div>
     </section>
 
-    <!-- Testimonials -->
-    <section id="testimonials">
-      <div class="flex justify-center items-center flex-col lg:flex-row lg:ml-18 lg:mr-auto px-1">
-
-        <a href="https://www.linkedin.com/in/hanneke-van-riet-3b029613/">
-          <div class="lg:mr-4 mb-2 lg:mb-0 w-12 rounded-full">
-
-          <img class="rounded-full aspect-square"
-            src="https://media.licdn.com/dms/image/C5603AQHemArdr_hkhA/profile-displayphoto-shrink_800_800/0/1637959446354?e=2147483647&v=beta&t=txyKyrOx9R8uncWCBtby-dZ50ZV5yAjW3vXfYP0rZxg">
-          </div>
-        </a>
-
-        <div class="flex flex-col lg:mr-4">
-          <p class="text-xl md:text-3xl font-bold">‘Our collaboration with the New Designers surpassed our expectations,
-            as they were not only easy to work with but also receptive to feedback and quick to take action.‘</p>
-          <div class="mt-1.25 ">
-            <a class="inline-block" href="https://www.linkedin.com/in/hanneke-van-riet-3b029613/">
-              <div class="flex items-center">
-                <p class="text-yellow text-2xl">Hanneke Van Riet</p>
-                <svg class="relative ml-0.5 lg:top-0.125 top-px" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24">
-                  <path fill="white" fill-rule="evenodd"
-                    d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838Zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388Zm-5.5 10.403h3.208V9.25H4.208v10.54ZM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0Z"
-                    clip-rule="evenodd" />
-                </svg>
-              </div>
-            </a>
-            <p class="text-blue-pacific">Study & Career Center, The Hague University</p>
-          </div>
-        </div>
-
-      </div>
-    </section>
+    <Testimonial />
 
     <!--Preview-->
     <section>
-      <vue-marquee-slider class="pb-6"
+      <vue-marquee-slider class="pb-3"
         id="marquee-slider-loop"
         :speed="3000"
-        :width="300"
+        :width="450"
         :space="0">
-           <h1>OUR WORK</h1>
+           <h2 class="text-6xl"> <span class="px-2">&bull;</span> OUR WORK</h2>
         </vue-marquee-slider>
 
         <div class="container grid lg:grid-cols-2 gap-2 text-center">
@@ -116,7 +84,7 @@
         </div>
         <h2 class="mt-2">GET STARTED</h2>
         <p class="mb-2 mx-auto">
-          At New Designers, we create custom solutions tailored to your needs. After a personal consultation, we'll provide a fixed-price package that meets your goals and budget. 
+          At New Designers, we create custom solutions tailored to your needs. After a personal consultation, we'll provide a fixed-price package that meets your goals and budget.
         </p>
         <nuxt-link to="/post-a-design-project" class="btn">Contact us to get started today.</nuxt-link>
       </div>
@@ -140,7 +108,7 @@
       </div>
     </section> -->
 
-    
+
   </main>
 </template>
 
