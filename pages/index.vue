@@ -86,7 +86,7 @@
         <p class="mb-2 mx-auto">
           At New Designers, we create custom solutions tailored to your needs. After a personal consultation, we'll provide a fixed-price package that meets your goals and budget.
         </p>
-        <nuxt-link to="/post-a-design-project" class="btn">Contact us to get started today!</nuxt-link>
+        <nuxt-link to="/get-started" class="btn">Contact us to get started today!</nuxt-link>
       </div>
     </section>
 
