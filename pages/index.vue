@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="flex justify-center pt-2">
-        <nuxt-link to="/projects" class="nav-link btn btn-sm self-center">
+        <nuxt-link to="/work" class="nav-link btn btn-sm self-center">
           Take a look at our projects
         </nuxt-link>
       </div>
