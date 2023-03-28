@@ -12,7 +12,7 @@
         </NuxtLink>
       </li>
       <li class="nav-item mt-0.75">
-        <nuxt-link to="/post-a-design-project" class="nav-link btn btn-sm">
+        <nuxt-link to="/get-started" class="nav-link btn btn-sm">
           Get started
           <span class="inline-flex items-center pl-0.5"><Fa icon="arrow-right"/></span>
         </nuxt-link>

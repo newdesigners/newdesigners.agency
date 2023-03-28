@@ -58,19 +58,19 @@
 
         <div class="container grid lg:grid-cols-2 gap-2 text-center">
           <div class="column items-stretch">
-            <img src="../assets/images/projects/FutureYou 1.png">
-            <img src="../assets/images/projects/hsif 1.png">
-            <img src="../assets/images/projects/joint-cyber-range 1.png">
+            <img class="h-24" src="../assets/images/work/taalgebruik-book.jpg">
+            <!-- <img src="../assets/images/projects/hsif 1.png">
+            <img src="../assets/images/projects/joint-cyber-range 1.png"> -->
           </div>
           <div class="column items-stretch">
-            <img class="h-24" src="../assets/images/projects/ads-ai 1.png">
-            <img class="h-24" src="../assets/images/projects/eu-impacthub 1.png">
-            <img class="h-24" src="../assets/images/projects/applied-research-project 1.png">
+            <img src="../assets/images/projects/NextFashionRetail_scaled2.jpg">
+            <!-- <img class="h-24" src="../assets/images/projects/eu-impacthub 1.png">
+            <img class="h-24" src="../assets/images/projects/applied-research-project 1.png"> -->
           </div>
         </div>
         <div class="flex justify-center pt-2">
         <nuxt-link to="/projects" class="nav-link btn btn-sm self-center">
-          More projects
+          Take a look at our projects
         </nuxt-link>
       </div>
 
@@ -86,7 +86,7 @@
         <p class="mb-2 mx-auto">
           At New Designers, we create custom solutions tailored to your needs. After a personal consultation, we'll provide a fixed-price package that meets your goals and budget.
         </p>
-        <nuxt-link to="/post-a-design-project" class="btn">Contact us to get started today.</nuxt-link>
+        <nuxt-link to="/post-a-design-project" class="btn">Contact us to get started today!</nuxt-link>
       </div>
     </section>
 

@@ -5,17 +5,17 @@
 <section id="testimonials">
     <div class="flex justify-center items-center flex-col lg:flex-row lg:ml-18 lg:mr-auto px-1">
 
-        <a href="https://www.linkedin.com/in/hanneke-van-riet-3b029613/">
+        <a href="https://www.linkedin.com/in/gjvantveen/">
         <div class="lg:mr-4 mb-2 lg:mb-0 w-12 rounded-full">
 
         <img class="rounded-full aspect-square"
-            src="https://media.licdn.com/dms/image/C5603AQHemArdr_hkhA/profile-displayphoto-shrink_800_800/0/1637959446354?e=2147483647&v=beta&t=txyKyrOx9R8uncWCBtby-dZ50ZV5yAjW3vXfYP0rZxg">
+            src="../assets/images/gerrit-jan.jpg">
         </div>
         </a>
         <div class="flex flex-col lg:mr-4">
             <p class="text-xl md:text-3xl font-bold">‘Working with New Designers is an unusual positive creative experience. They listen carefully, are flexible, and deliver on time and above par. Their dedicated team of students is energetic and eager. If you want to boost your digital presence, I would seriously consider them for concepts, prototyping, and MVPs.‘</p>
             <div class="mt-1.25 ">
-                <a class="inline-block" href="https://www.linkedin.com/in/hanneke-van-riet-3b029613/">
+                <a class="inline-block" href="https://www.linkedin.com/in/gjvantveen/">
                 <div class="flex items-center">
                     <p class="text-yellow text-2xl">Gerrit Jan van ‘t Veen</p>
                     <svg class="relative ml-0.5 lg:top-0.125 top-px" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
