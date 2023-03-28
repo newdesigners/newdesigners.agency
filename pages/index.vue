@@ -90,25 +90,6 @@
       </div>
     </section>
 
-    <!-- Incubator -->
-    <!-- <section id="incubator">
-      <div class="container text-center overflow-hidden">
-        <h2>Edtech Incubator</h2>
-        <img src="~/assets/images/submit-project.png" class="float-right pl-2 pb-6">
-
-        <p class="mx-auto text-left">
-          In addition to working for clients we also host
-          educational software startups. For example, if you have an
-          idea for your own educational product, we can help you with validation, design, development and
-          marketing.<br><br> Want to know what is possible? Please
-          <a href="mailto:newdesigners@hhs.nl">send us an email</a> or leave your <nuxt-link
-            to="/post-a-design-project">project description</nuxt-link> if you want
-          to apply for our incubator.
-        </p>
-      </div>
-    </section> -->
-
-
   </main>
 </template>
 

@@ -44,8 +44,25 @@
     </section>
 
 
+    <!-- Incubator -->
+    <section id="incubator">
+      <div class="container text-center overflow-hidden">
+        <h2>Edtech Incubator</h2>
+        <img src="~/assets/images/submit-project.png" class="float-right pl-2 pb-6">
+
+        <p class="mx-auto text-left">
+          In addition to working for clients we also host
+          educational software startups. For example, if you have an
+          idea for your own educational product, we can help you with validation, design, development and
+          marketing.<br><br> Want to know what is possible? Please
+          <a href="mailto:newdesigners@hhs.nl">send us an email</a> or leave your <nuxt-link
+            to="/post-a-design-project">project description</nuxt-link> if you want
+          to apply for our incubator.
+        </p>
+      </div>
+    </section>
     <!-- FAQ -->
-    <section id="faq">
+    <!-- <section id="faq">
     <div class="containerv2 lg:pr-9 lg:pl-9 md:pr-5 md:pl-5 sm:pl-2 sm:pr-2">
       <div class="relative">
         <h1 class="z-20 relative">FAQ</h1>
@@ -59,7 +76,7 @@
         <questionblock question="Project internships or follow-up internships?" answer="We work on a flexible contract system. We can sign a contract for the entire project, or we can book a sprint only. Each sprint consists of two weeks. The number of sprints needed to implement the project is determined when discussing the project with the client."/>
       </div>
     </div>
-    </section>    
+    </section>     -->
   </main>
 </template>
 
