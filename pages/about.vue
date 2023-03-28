@@ -56,7 +56,7 @@
           idea for your own educational product, we can help you with validation, design, development and
           marketing.<br><br> Want to know what is possible? Please
           <a href="mailto:newdesigners@hhs.nl">send us an email</a> or leave your <nuxt-link
-            to="/post-a-design-project">project description</nuxt-link> if you want
+            to="/get-started">contact info </nuxt-link> if you want
           to apply for our incubator.
         </p>
       </div>
