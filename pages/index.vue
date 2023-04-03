@@ -56,7 +56,7 @@
            <h2 class="text-6xl"> <span class="px-2">&bull;</span> OUR WORK</h2>
         </vue-marquee-slider>
 
-        <div class="container grid lg:grid-cols-2 gap-2 text-center">
+        <div class="container grid lg:grid-cols-2 gap-1 md:gap-2 text-center">
           <div class="column items-stretch">
             <img class="h-24" src="../assets/images/work/taalgebruik-book.jpg">
             <!-- <img src="../assets/images/projects/hsif 1.png">
@@ -66,6 +66,18 @@
             <img src="../assets/images/projects/NextFashionRetail_scaled2.jpg">
             <!-- <img class="h-24" src="../assets/images/projects/eu-impacthub 1.png">
             <img class="h-24" src="../assets/images/projects/applied-research-project 1.png"> -->
+          </div>
+          <div class="column items-stretch">
+            <img class="h-24" src="../assets/images/projects/Joint-Cyberrange.jpg">
+          </div>
+          <div class="column items-stretch">
+            <img src="../assets/images/projects/hsif-1.png">
+          </div>
+          <div class="column items-stretch">
+            <img class="h-24" src="../assets/images/projects/Gemeente-Haag-Archief.jpg">
+          </div>
+          <div class="column items-stretch">
+            <img src="../assets/images/projects/European-Impact-Hub.jpg">
           </div>
         </div>
         <div class="flex justify-center pt-2">
