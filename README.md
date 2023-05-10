@@ -1,6 +1,6 @@
 # New Designers Developer Assignment
 
-Hello and welcome to the New Designers team! As a new member of our web development team, your first assignment is to create a new project page template from the design we've prepared for our agency website. This task will involve creating a new markdown file and implementing the structure of the new template page. 
+Hello and welcome to the New Designers team! Your test assignment is to create a new project page template from the design we've prepared for our agency website. This task will involve creating a new markdown file and implementing the structure of the new template page. Please keep track of your time and make sure to send this in your final email.
 
 This project uses Vue.js and Tailwind CSS. You won't need to worry about the header and footer as those are already present. Your focus will be on the project page content.
 
