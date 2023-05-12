@@ -16,7 +16,7 @@ Take a good look at the design and familiarize yourself with it. You will be rec
 
 You will find our project on GitHub:
 
-[GitHub Repo](https://github.com/newdesigners/newdesigners.agency)
+[GitHub Repo](https://github.com/newdesigners/newdesigners.agency/tree/assignment)
 
 Inside this repository, you'll find a markdown file at `content/projects/test-project.md`. This file will give you an idea of how we use markdown files to populate our templates.
 
