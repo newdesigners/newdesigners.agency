@@ -8,7 +8,7 @@ This project uses Vue.js and Tailwind CSS. You won't need to worry about the hea
 
 You will be using the design mockup available on our Figma: 
 
-[Design Mockup](https://www.figma.com/file/UXl57V9OHsh2iS7e2UBdUX/New-Designers-Developer-Assignment?type=design&node-id=0%3A1&t=Ft688ZYWn2sUJp6x-1)
+[Design Mockup](https://www.figma.com/community/file/1239137924714718142)
 
 Take a good look at the design and familiarize yourself with it. You will be recreating this design within our Vue.js and Tailwind CSS environment.
 
