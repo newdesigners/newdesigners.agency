@@ -42,8 +42,7 @@
         </div>
       </div>
     </section>
-
-
+    
     <!-- Incubator -->
     <section id="incubator">
       <div class="container text-center overflow-hidden">
