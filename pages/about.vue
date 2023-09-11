@@ -6,7 +6,8 @@
     <section id="hero">
       <div class="container">
         <h1 class="mb-2">About us</h1>
-        <p class="md:text-2xl mx-auto">We are New Designers, the first student-run digital agency in The Hague. Founded in September 2020 we are a full-service learning environment that designs and develops brand identities and tailor-made digital solutions. We create websites, brand styles, provide UX reviews, as well as motion design and testing of existing digital products.</p>
+        <p class="md:text-2xl mx-auto">We are New Designers, the first student-run digital agency in The Hague. Founded in September 2020 we are a full-service learning environment in <a href="https://www.thuas.com/" class="text-white underline !hover:text-white">THUAS</a> that designs and develops brand identities and tailor-made digital solutions. We create websites, brand styles, provide UX reviews, as well as motion design and testing of existing digital products.</p>
+        <img src="../assets/images/thuas-logo.png" class="pt-3 block mx-auto" alt="THUAS logo">
       </div>
     </section>
 
@@ -16,9 +17,10 @@
 
           <h2>Learning by doing</h2>
           <p class="mb-2 mx-auto">
-            Our goal is to have every design built and put live, our products will be used in real life. Students determine their role within the agency and work together in a team of likeminded (international) students. We offer a place where students can discover who they are.
+            Our goal is to have every design built and put live, our products will be used in real life. Determine your own role within the agency and work together in a team of likeminded international students. We offer a place where students can discover who they are.
           </p>
 
+          <h3 class="text-center mt-5">Looking for a new experience?</h3>
           <p class="mb-2 mx-auto">
             Are you a student that wants to get out of your comfort zone and grow to deliver the next successful digital project? We are always looking for students with passion for design, entrepreneurship and/or frontend development that like to work in a team. Please drop by SL7.02 or send us <a href="mailto:newdesigners@hhs.nl"> an email</a> and get to know us!</p>
           </p>
@@ -33,6 +35,14 @@
     </section>
 
 
+    <Testimonial
+      name="Jessica and Hanneke"
+      imageSrc="hanneke-jessica.jpg"
+      quote="‘Working with New Designers surpassed our expectations. They expertly matched us with talented students who were responsive, receptive, and acted swiftly. We appreciated their dedicated supervision. Excited to continue our partnership!‘"
+      linkedinUrl=""
+      company="Study & Career Centre"
+    />
+
     <!-- What we do -->
     <section id="what-we-do">
       <div class="container">
@@ -42,7 +52,6 @@
         </div>
       </div>
     </section>
-
 
     <!-- Incubator -->
     <section id="incubator">
