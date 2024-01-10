@@ -59,6 +59,15 @@
           </li>
         </ul>
       </div>
+
+
+    <Testimonial
+      name="Jeroen & Loes"
+      imageSrc="jeroen-loes.jpg"
+      quote="‘Our experience with New Designers has been incredibly positive. They offer a wide range of talent, from supervising brainstorming sessions to creating stunning designs. The professionalism of both the teachers and students ensures a successful partnership.‘"
+      linkedinUrl=""
+      company="VERD"
+    />      
     </section>
   </main>
 </template>

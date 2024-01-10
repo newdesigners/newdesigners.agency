@@ -7,7 +7,6 @@
         <h1 class="mb-2">Let’s get in touch!</h1>
         <p class="md:text-2xl mx-auto">The Hague University of Applied Sciences - Johanna Westerdijkplein 75 - 2521 EN The Hague -
         Room SL7.02 - <a href="mailto:newdesigners@hhs.nl" class="text-white">newdesigners@hhs.nl</a></p>
-
       </div>
     </section>
 

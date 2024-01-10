@@ -44,7 +44,12 @@
       </div>
     </section>
 
-    <Testimonial />
+    <Testimonial
+      name="Gerrit Jan van ‘t Veen"
+      imageSrc="gerrit-jan.jpg"
+      quote="‘Working with New Designers is an unusual positive creative experience. They listen carefully, are flexible, and deliver on time and above par. Their dedicated team of students is energetic and eager. If you want to boost your digital presence, I would seriously consider them for concepts, prototyping, and MVPs.‘"
+      company="WorldStartup"
+    />
 
     <!--Preview-->
     <section>
@@ -108,10 +113,13 @@
 <script>
 import Vue from 'vue'
 import VueMarqueeSlider from 'vue-marquee-slider';
-Vue.use(VueMarqueeSlider)
-
+import Testimonial from "@/components/Testimonial.vue";
+Vue.use(VueMarqueeSlider);
 
 export default {
+  components: {
+    Testimonial,
+  },
   head() {
     return {
       script: [

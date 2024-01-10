@@ -11,7 +11,32 @@
 
     <!-- Work -->
     <section id="work">
-      <div class="container">
+
+      <div class="container mb-10">
+        <div class="md:flex">
+          <div class="p-1 w-1/2">
+            <img src="~/assets/images/work/thehaguenetwork.jpg"  class="block pt-2 pb-2">
+            <h3>The Hague Network - <a href="https://thehaguenetwork.org/">Website</a></h3>
+            <p>Connecting students and universities through a Virtual Exchange</p>
+            <p class="pt-1">
+              <strong class="pr-2">Rebranding</strong>
+              <strong class="pr-2">Web Design</strong>
+              <strong class="pr-2">Development</strong>
+            </p>
+          </div>
+
+          <div class="p-1 w-1/2">
+            <img src="~/assets/images/work/bouwzussen.jpg"  class="block pt-2 pb-2">
+            <h3>De Bouwzussen - <a href="https://bouwzussen.nl">Website</a></h3>
+            <p>From management to area marketing. And from buyer guidance to sales management. You can rely on De Bouwzussen.</p>
+            <p class="pt-1">
+              <strong class="pr-2">Branding</strong>
+              <strong class="pr-2">Web Design</strong>
+              <strong class="pr-2">Development</strong>
+              <strong>CMS</strong>
+            </p>
+          </div>
+        </div>
 
         <div class="md:flex">
           <div class="p-1">
@@ -60,9 +85,19 @@
           </div>
         </div>
 
+      </div>
+        <Testimonial
+          name="Jeroen & Loes"
+          imageSrc="jeroen-loes.jpg"
+          quote="‘Our experience with New Designers has been incredibly positive. They offer a wide range of talent, from supervising brainstorming sessions to creating stunning designs. The professionalism of both the teachers and students ensures a successful partnership.‘"
+          linkedinUrl=""
+          company="VERD"
+        />
+
+      <div class="container mb-10">
         <div class="md:flex justify-center p-1">
 
-          <div class="w-1/3 md:flex justify-center md:flex-col">
+          <div class="md:w-1/3 md:flex justify-center md:flex-col">
             <h2 class="mb-1 text-left text-secondary">MKB Digitaal  - <a href="https://www.mkbdigitaal.com/nieuwe-aanvraag" class="text-secondary">Website</a></h2>
               <p>UX redesign and explanation animation</p>
               <p class="pt-1">
@@ -126,12 +161,12 @@
 
         <div class="md:flex justify-center p-1">
 
-          <div class="w-2/3" style="padding:56.25% 0 0 0;position:relative;">
+          <div class="md:w-2/3" style="padding:56.25% 0 0 0;position:relative;">
             <iframe src="https://player.vimeo.com/video/668163570?h=46f27d4b22&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="MKB overview4 - without ministrymp4"></iframe>
           </div>
 
-          <div class="w-1/3 ml-2 md:flex justify-center md:flex-col">
-            <h2 class="mb-1 text-left text-secondary">NLinBusiness</h2>
+          <div class="md:w-1/3 ml-2 md:flex justify-center md:flex-col">
+            <h2 class="mb-1 mt-2 text-left text-secondary">NLinBusiness</h2>
               <p>Presenting Dutch innovative solutions on international platform and expos</p>
               <p class="pt-1">
                 <strong class="pr-2">Video</strong>
@@ -181,6 +216,7 @@ MKB Digiwerkplaats
 National CMD Day
  -->
       </div>
+
 
     </section>
     <script src="https://player.vimeo.com/api/player.js"></script>
