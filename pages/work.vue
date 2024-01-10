@@ -11,8 +11,32 @@
 
     <!-- Work -->
     <section id="work">
-      
+
       <div class="container mb-10">
+        <div class="md:flex">
+          <div class="p-1 w-1/2">
+            <img src="~/assets/images/work/thehaguenetwork.jpg"  class="block pt-2 pb-2">
+            <h3>The Hague Network - <a href="https://thehaguenetwork.org/">Website</a></h3>
+            <p>Connecting students and universities through a Virtual Exchange</p>
+            <p class="pt-1">
+              <strong class="pr-2">Rebranding</strong>
+              <strong class="pr-2">Web Design</strong>
+              <strong class="pr-2">Development</strong>
+            </p>
+          </div>
+
+          <div class="p-1 w-1/2">
+            <img src="~/assets/images/work/bouwzussen.jpg"  class="block pt-2 pb-2">
+            <h3>De Bouwzussen - <a href="https://bouwzussen.nl">Website</a></h3>
+            <p>From management to area marketing. And from buyer guidance to sales management. You can rely on De Bouwzussen.</p>
+            <p class="pt-1">
+              <strong class="pr-2">Branding</strong>
+              <strong class="pr-2">Web Design</strong>
+              <strong class="pr-2">Development</strong>
+              <strong>CMS</strong>
+            </p>
+          </div>
+        </div>
 
         <div class="md:flex">
           <div class="p-1">
@@ -68,7 +92,7 @@
           quote="‘Our experience with New Designers has been incredibly positive. They offer a wide range of talent, from supervising brainstorming sessions to creating stunning designs. The professionalism of both the teachers and students ensures a successful partnership.‘"
           linkedinUrl=""
           company="VERD"
-        />      
+        />
 
       <div class="container mb-10">
         <div class="md:flex justify-center p-1">
