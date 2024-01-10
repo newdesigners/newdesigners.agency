@@ -27,7 +27,7 @@
 
           <div class="p-1 w-1/2">
             <img src="~/assets/images/work/bouwzussen.jpg"  class="block pt-2 pb-2">
-            <h3>De Bouwzussen - <a href="https://bouwzussen.nl">Website</a></h3>
+            <h3>De Bouwzussen - <a href="https://debouwzussen.nl">Website</a></h3>
             <p>From management to area marketing. And from buyer guidance to sales management. You can rely on De Bouwzussen.</p>
             <p class="pt-1">
               <strong class="pr-2">Branding</strong>
