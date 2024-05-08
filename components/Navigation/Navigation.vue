@@ -32,6 +32,7 @@ export default {
         { link: "/", text: "Introduction" },
         { link: "/work", text: "Our projects", disabled: false},
         { link: "/about", text: "About us", disabled: false},
+        { link: "https://nexted.nl", text: "Incubator (new!)", disabled: false},
       ]
     };
   }
